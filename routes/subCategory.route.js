@@ -10,6 +10,7 @@ const {
 	getSubCategoryBySlug,
 	deleteSubCategory,
 	updateSubCategory,
+	restoreSubCategory,
 } = require('../controller/subCategory.controller');
 
 router.post(
@@ -22,5 +23,6 @@ router.get('/', paginate(SubCategory, 'category'), getAllSubCategories);
 router.get('/:slug', getSubCategoryBySlug);
 router.delete('/:id', authanticate, authorized('admin'), deleteSubCategory);
 router.put('/:id', authanticate, authorized('admin'), updateSubCategory);
+router.patch('/:id', authanticate, authorized('admin'), restoreSubCategory);
 
 module.exports = router;

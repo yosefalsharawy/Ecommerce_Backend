@@ -69,6 +69,30 @@ exports.updateGategory = catchAsync(async (req, res, next) => {
 	});
 });
 
+exports.restoreCategory = catchAsync(async (req, res, next) => {
+	const { id } = req.params;
+	const { name } = req.body;
+	const category = await Category.findById(id);
+	if (!category) {
+		return next(new APPError('Category not found', 404));
+	}
+	if (name) {
+		category.name = name;
+		category.slug = slugify(name, {
+			lower: true,
+			strict: true,
+		});
+	}
+	category.isDeleted = false;
+	category.isActive = true;
+	const restoredCategory = await category.save();
+	logger.info('Category restored successfully!');
+	res.status(200).json({
+		message: 'Category restored successfully',
+		data: restoredCategory,
+	});
+});
+
 exports.deleteCategory = catchAsync(async (req, res, next) => {
 	const { id } = req.params;
 	const category = await Category.findByIdAndUpdate(

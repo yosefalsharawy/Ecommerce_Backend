@@ -6784,3 +6784,571 @@ Error: can't find /api/v1/product/6a0770f6f5de2887974c09e3
 Error: Cannot move order from cancelledByUser to pending
     at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:22:20 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:22:42 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:22:44 |ERROR| Error | GET | /api/v1/auth/signup : can't find /api/v1/auth/signup 
+Error: can't find /api/v1/auth/signup
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 16:22:45 |ERROR| Error | GET | /favicon.ico : can't find /favicon.ico 
+Error: can't find /favicon.ico
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at cors (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\cors\lib\index.js:224:17
+    at origin (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\cors.middleware.js:8:11)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\cors\lib\index.js:219:13
+21-05-2026 16:23:29 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:23:36 |ERROR| Error | GET | /api/v1/auth/signup : can't find /api/v1/auth/signup 
+Error: can't find /api/v1/auth/signup
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 16:28:14 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:28:25 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: email_1 dup key: { email: "mohamed@gmail.com" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: email_1 dup key: { email: "mohamed@gmail.com" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:29:37 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:29:44 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: email_1 dup key: { email: "mohamed@gmail.com" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: email_1 dup key: { email: "mohamed@gmail.com" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:30:00 |ERROR| Error | POST | /api/v1/auth/login : Invalid mobile or Password! 
+Error: Invalid mobile or Password!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:22:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:30:06 |ERROR| Error | GET | /api/v1/auth/login : can't find /api/v1/auth/login 
+Error: can't find /api/v1/auth/login
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 16:31:26 |ERROR| Error | POST | /api/v1/auth/login : Invalid mobile or Password! 
+Error: Invalid mobile or Password!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:22:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:31:32 |ERROR| Error | POST | /api/v1/auth/login : Invalid mobile or Password! 
+Error: Invalid mobile or Password!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:22:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:31:36 |ERROR| Error | POST | /api/v1/auth/login : Invalid mobile or Password! 
+Error: Invalid mobile or Password!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:22:7
+21-05-2026 16:34:33 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:34 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:36 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:36 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:37 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:38 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:39 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:39 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:39 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:35:50 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:35:51 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:35:51 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:35:51 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:35:52 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:36:52 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:36:53 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:38:54 |ERROR| Error | PATCH | /api/v1/order/updateStatus/6a08be6ea81209b9bfb09b14 : Cannot move order from received to cancelledByAdmin 
+Error: Cannot move order from received to cancelledByAdmin
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:49:38 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:50:02 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:06 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:07 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:09 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:12 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:13 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:14 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:14 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:14 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:00 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:00 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:00 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:00 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:01 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:02 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:02 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:04 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:06 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:06 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:07 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:07 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:25 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:26 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:26 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:27 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:27 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:42 |ERROR| Error | PUT | /api/v1/category/69f9d6cbfd951ec68e6959ec : Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" } 
+MongoServerError: Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" }
+    at UpdateOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\update.js:70:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.updateOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:238:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:477:18)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:65:26
+21-05-2026 17:03:43 |ERROR| Error | PUT | /api/v1/category/69f9d6cbfd951ec68e6959ec : Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" } 
+MongoServerError: Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" }
+    at UpdateOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\update.js:70:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.updateOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:238:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:477:18)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:65:26
+21-05-2026 17:03:43 |ERROR| Error | PUT | /api/v1/category/69f9d6cbfd951ec68e6959ec : Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" } 
+MongoServerError: Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" }
+    at UpdateOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\update.js:70:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.updateOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:238:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:477:18)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:65:26
+21-05-2026 17:03:43 |ERROR| Error | PUT | /api/v1/category/69f9d6cbfd951ec68e6959ec : Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" } 
+MongoServerError: Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" }
+    at UpdateOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\update.js:70:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.updateOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:238:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:477:18)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:65:26
+21-05-2026 17:06:41 |ERROR| Error | PATCH | /api/v1/category/6a076ff2f5de2887974c09d8 : can't find /api/v1/category/6a076ff2f5de2887974c09d8 
+Error: can't find /api/v1/category/6a076ff2f5de2887974c09d8
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:06:41 |ERROR| Error | PATCH | /api/v1/subCategory/6a077005f5de2887974c09da : can't find /api/v1/subCategory/6a077005f5de2887974c09da 
+Error: can't find /api/v1/subCategory/6a077005f5de2887974c09da
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:06:52 |ERROR| Error | PATCH | /api/v1/category/6a076ff2f5de2887974c09d8 : can't find /api/v1/category/6a076ff2f5de2887974c09d8 
+Error: can't find /api/v1/category/6a076ff2f5de2887974c09d8
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:06:52 |ERROR| Error | PATCH | /api/v1/subCategory/6a077005f5de2887974c09da : can't find /api/v1/subCategory/6a077005f5de2887974c09da 
+Error: can't find /api/v1/subCategory/6a077005f5de2887974c09da
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:06:55 |ERROR| Error | PATCH | /api/v1/category/6a076ff2f5de2887974c09d8 : can't find /api/v1/category/6a076ff2f5de2887974c09d8 
+Error: can't find /api/v1/category/6a076ff2f5de2887974c09d8
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:06:55 |ERROR| Error | PATCH | /api/v1/subCategory/6a077005f5de2887974c09da : can't find /api/v1/subCategory/6a077005f5de2887974c09da 
+Error: can't find /api/v1/subCategory/6a077005f5de2887974c09da
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:10:09 |ERROR| Error | GET | /api/v1/category/6a076ff2f5de2887974c09d8 : Category is not found! 
+Error: Category is not found!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:44:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:16:31 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:16:33 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:16:34 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:22:06 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:22:06 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:23:21 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:24:10 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:24:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:24:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:24:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:25:26 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 18:03:38 |ERROR| Error | PATCH | /api/v1/category/6a0f13b59e4a656d1493feb7 : can't find /api/v1/category/6a0f13b59e4a656d1493feb7 
+Error: can't find /api/v1/category/6a0f13b59e4a656d1493feb7
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 18:03:44 |ERROR| Error | PATCH | /api/v1/category/6a0f13b59e4a656d1493feb7 : can't find /api/v1/category/6a0f13b59e4a656d1493feb7 
+Error: can't find /api/v1/category/6a0f13b59e4a656d1493feb7
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 18:03:54 |ERROR| Error | PATCH | /api/v1/category/6a0f13b59e4a656d1493feb7 : can't find /api/v1/category/6a0f13b59e4a656d1493feb7 
+Error: can't find /api/v1/category/6a0f13b59e4a656d1493feb7
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 18:53:07 |ERROR| Error | PATCH | /api/v1/order/updateStatus/6a0f2a542575dd590ba1f447 : Cannot move order from pending to shipped 
+Error: Cannot move order from pending to shipped
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 18:53:43 |ERROR| Error | PATCH | /api/v1/order/updateStatus/6a0f2a542575dd590ba1f447 : Cannot move order from shipped to cancelledByAdmin 
+Error: Cannot move order from shipped to cancelledByAdmin
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 18:53:51 |ERROR| Error | PATCH | /api/v1/order/updateStatus/6a0f2a542575dd590ba1f447 : Cannot move order from shipped to refused 
+Error: Cannot move order from shipped to refused
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 18:54:28 |ERROR| Error | PATCH | /api/v1/order/updateStatus/6a0f2a542575dd590ba1f447 : Cannot move order from received to shipped 
+Error: Cannot move order from received to shipped
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)

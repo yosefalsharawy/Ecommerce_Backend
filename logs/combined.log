@@ -9488,3 +9488,1916 @@ Error: Cannot move order from cancelledByUser to pending
 21-05-2026 02:04:30 |INFO| Category listed! 
 21-05-2026 02:04:31 |INFO| Category listed! 
 21-05-2026 02:04:31 |INFO| subCategory listed! 
+21-05-2026 16:22:20 |INFO| users created! 
+21-05-2026 16:22:20 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:22:42 |INFO| users created! 
+21-05-2026 16:22:42 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:22:44 |ERROR| Error | GET | /api/v1/auth/signup : can't find /api/v1/auth/signup 
+Error: can't find /api/v1/auth/signup
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 16:22:45 |ERROR| Error | GET | /favicon.ico : can't find /favicon.ico 
+Error: can't find /favicon.ico
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at cors (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\cors\lib\index.js:224:17
+    at origin (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\cors.middleware.js:8:11)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\cors\lib\index.js:219:13
+21-05-2026 16:23:28 |INFO| users created! 
+21-05-2026 16:23:29 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:23:36 |ERROR| Error | GET | /api/v1/auth/signup : can't find /api/v1/auth/signup 
+Error: can't find /api/v1/auth/signup
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 16:28:14 |INFO| users created! 
+21-05-2026 16:28:14 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:28:25 |INFO| users created! 
+21-05-2026 16:28:25 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: email_1 dup key: { email: "mohamed@gmail.com" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: email_1 dup key: { email: "mohamed@gmail.com" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:28:31 |INFO| users created! 
+21-05-2026 16:28:31 |INFO| Reviews are listed! 
+21-05-2026 16:28:31 |INFO| Products listed! 
+21-05-2026 16:29:04 |INFO| Products listed! 
+21-05-2026 16:29:04 |INFO| Reviews are listed! 
+21-05-2026 16:29:37 |INFO| users created! 
+21-05-2026 16:29:37 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: mobile_1 dup key: { mobile: "01006979642" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:29:44 |INFO| users created! 
+21-05-2026 16:29:44 |ERROR| Error | POST | /api/v1/auth/signup : E11000 duplicate key error collection: eCommerece.users index: email_1 dup key: { email: "mohamed@gmail.com" } 
+MongoServerError: E11000 duplicate key error collection: eCommerece.users index: email_1 dup key: { email: "mohamed@gmail.com" }
+    at InsertOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.insertOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:428:16)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:2747:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:29:18
+21-05-2026 16:29:50 |INFO| users created! 
+21-05-2026 16:29:50 |INFO| Reviews are listed! 
+21-05-2026 16:29:50 |INFO| Products listed! 
+21-05-2026 16:29:54 |INFO| Orders is listed! 
+21-05-2026 16:30:00 |ERROR| Error | POST | /api/v1/auth/login : Invalid mobile or Password! 
+Error: Invalid mobile or Password!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:22:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:30:06 |ERROR| Error | GET | /api/v1/auth/login : can't find /api/v1/auth/login 
+Error: can't find /api/v1/auth/login
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 16:31:26 |ERROR| Error | POST | /api/v1/auth/login : Invalid mobile or Password! 
+Error: Invalid mobile or Password!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:22:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:31:32 |ERROR| Error | POST | /api/v1/auth/login : Invalid mobile or Password! 
+Error: Invalid mobile or Password!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:22:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:31:36 |ERROR| Error | POST | /api/v1/auth/login : Invalid mobile or Password! 
+Error: Invalid mobile or Password!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\auth.controller.js:22:7
+21-05-2026 16:31:43 |INFO| Reviews are listed! 
+21-05-2026 16:31:43 |INFO| Products listed! 
+21-05-2026 16:31:43 |INFO| Cart listed! 
+21-05-2026 16:31:55 |INFO| Cart listed! 
+21-05-2026 16:31:55 |INFO| Reviews are listed! 
+21-05-2026 16:31:55 |INFO| Products listed! 
+21-05-2026 16:31:58 |INFO| Cart listed! 
+21-05-2026 16:31:58 |INFO| Category listed! 
+21-05-2026 16:31:58 |INFO| Products listed! 
+21-05-2026 16:32:01 |INFO| Products listed! 
+21-05-2026 16:32:02 |INFO| Products listed! 
+21-05-2026 16:32:04 |INFO| Products listed! 
+21-05-2026 16:32:07 |INFO| Products listed! 
+21-05-2026 16:32:10 |INFO| Products listed! 
+21-05-2026 16:32:13 |INFO| Products listed! 
+21-05-2026 16:32:15 |INFO| Product listed! 
+21-05-2026 16:32:32 |INFO| Category listed! 
+21-05-2026 16:32:32 |INFO| Cart listed! 
+21-05-2026 16:32:32 |INFO| Products listed! 
+21-05-2026 16:32:36 |INFO| Products listed! 
+21-05-2026 16:32:42 |INFO| Product listed! 
+21-05-2026 16:32:59 |INFO| Category listed! 
+21-05-2026 16:32:59 |INFO| Cart listed! 
+21-05-2026 16:32:59 |INFO| Products listed! 
+21-05-2026 16:33:03 |INFO| Products listed! 
+21-05-2026 16:33:06 |INFO| Products listed! 
+21-05-2026 16:33:11 |INFO| Products listed! 
+21-05-2026 16:33:16 |INFO| Products listed! 
+21-05-2026 16:33:23 |INFO| Products listed! 
+21-05-2026 16:33:25 |INFO| Products listed! 
+21-05-2026 16:33:29 |INFO| Products listed! 
+21-05-2026 16:33:30 |INFO| Products listed! 
+21-05-2026 16:33:35 |INFO| Products listed! 
+21-05-2026 16:33:37 |INFO| Products listed! 
+21-05-2026 16:33:38 |INFO| Products listed! 
+21-05-2026 16:33:41 |INFO| Products listed! 
+21-05-2026 16:33:45 |INFO| Products listed! 
+21-05-2026 16:33:48 |INFO| Products listed! 
+21-05-2026 16:33:50 |INFO| Products listed! 
+21-05-2026 16:33:52 |INFO| Products listed! 
+21-05-2026 16:34:00 |INFO| Products listed! 
+21-05-2026 16:34:05 |INFO| Cart listed! 
+21-05-2026 16:34:05 |INFO| Reviews are listed! 
+21-05-2026 16:34:05 |INFO| Products listed! 
+21-05-2026 16:34:10 |INFO| Cart listed! 
+21-05-2026 16:34:10 |INFO| Reviews are listed! 
+21-05-2026 16:34:10 |INFO| Products listed! 
+21-05-2026 16:34:26 |INFO| Cart listed! 
+21-05-2026 16:34:26 |INFO| Reviews are listed! 
+21-05-2026 16:34:26 |INFO| Products listed! 
+21-05-2026 16:34:30 |INFO| Product listed! 
+21-05-2026 16:34:32 |INFO| Reviews are listed! 
+21-05-2026 16:34:32 |INFO| Products listed! 
+21-05-2026 16:34:33 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:34 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:36 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:36 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:37 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:38 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:39 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:39 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:39 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:21:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:34:41 |INFO| Product listed! 
+21-05-2026 16:34:43 |INFO| Reviews are listed! 
+21-05-2026 16:34:43 |INFO| Products listed! 
+21-05-2026 16:34:45 |INFO| Cart updated! 
+21-05-2026 16:34:48 |INFO| Cart updated! 
+21-05-2026 16:34:54 |INFO| Category listed! 
+21-05-2026 16:34:54 |INFO| Products listed! 
+21-05-2026 16:34:54 |INFO| Cart listed! 
+21-05-2026 16:35:00 |INFO| Reviews are listed! 
+21-05-2026 16:35:00 |INFO| Products listed! 
+21-05-2026 16:35:07 |INFO| Category listed! 
+21-05-2026 16:35:07 |INFO| Products listed! 
+21-05-2026 16:35:07 |INFO| Cart listed! 
+21-05-2026 16:35:10 |INFO| Products listed! 
+21-05-2026 16:35:10 |INFO| Reviews are listed! 
+21-05-2026 16:35:30 |INFO| Category listed! 
+21-05-2026 16:35:30 |INFO| Products listed! 
+21-05-2026 16:35:30 |INFO| Cart listed! 
+21-05-2026 16:35:49 |INFO| Cart listed! 
+21-05-2026 16:35:50 |INFO| Cart Item is updated! 
+21-05-2026 16:35:50 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:35:51 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:35:51 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:35:51 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:35:52 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:35:53 |INFO| Cart listed! 
+21-05-2026 16:36:03 |INFO| Order is placed! 
+21-05-2026 16:36:03 |INFO| Cart listed! 
+21-05-2026 16:36:05 |INFO| Orders is listed! 
+21-05-2026 16:36:18 |INFO| user requested a refund! 
+21-05-2026 16:36:25 |INFO| user requested a refund! 
+21-05-2026 16:36:31 |INFO| order is cancelled by user! 
+21-05-2026 16:36:52 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:36:52 |INFO| Products listed! 
+21-05-2026 16:36:52 |INFO| Reviews are listed! 
+21-05-2026 16:36:53 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:37:13 |INFO| Products listed! 
+21-05-2026 16:37:14 |INFO| Category listed! 
+21-05-2026 16:37:14 |INFO| subCategory listed! 
+21-05-2026 16:37:14 |INFO| Products listed! 
+21-05-2026 16:37:23 |INFO| Product deleted successfully! 
+21-05-2026 16:37:23 |INFO| Products listed! 
+21-05-2026 16:37:23 |INFO| Products listed! 
+21-05-2026 16:37:53 |INFO| Product created! 
+21-05-2026 16:37:53 |INFO| Products listed! 
+21-05-2026 16:38:01 |INFO| Orders is listed! 
+21-05-2026 16:38:11 |INFO| Order update request refund status! 
+21-05-2026 16:38:16 |INFO| Order update request refund status! 
+21-05-2026 16:38:32 |INFO| Orders is listed! 
+21-05-2026 16:38:38 |INFO| Orders is listed! 
+21-05-2026 16:38:49 |INFO| Orders is listed! 
+21-05-2026 16:38:54 |ERROR| Error | PATCH | /api/v1/order/updateStatus/6a08be6ea81209b9bfb09b14 : Cannot move order from received to cancelledByAdmin 
+Error: Cannot move order from received to cancelledByAdmin
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:38:59 |INFO| Category listed! 
+21-05-2026 16:39:06 |INFO| Category listed! 
+21-05-2026 16:39:08 |INFO| Category listed! 
+21-05-2026 16:39:08 |INFO| subCategory listed! 
+21-05-2026 16:39:14 |INFO| Category listed! 
+21-05-2026 16:39:17 |INFO| Category listed! 
+21-05-2026 16:39:18 |INFO| Category listed! 
+21-05-2026 16:39:18 |INFO| subCategory listed! 
+21-05-2026 16:39:23 |INFO| subCategory listed! 
+21-05-2026 16:39:23 |INFO| Category listed! 
+21-05-2026 16:39:25 |INFO| users listed! 
+21-05-2026 16:39:28 |INFO| Reviews are listed for admin! 
+21-05-2026 16:39:51 |INFO| Cart listed! 
+21-05-2026 16:39:51 |INFO| Reviews are listed! 
+21-05-2026 16:39:51 |INFO| Products listed! 
+21-05-2026 16:39:52 |INFO| Orders is listed! 
+21-05-2026 16:40:07 |INFO| user requested a refund! 
+21-05-2026 16:40:30 |INFO| Orders is listed! 
+21-05-2026 16:40:33 |INFO| Order update request refund status! 
+21-05-2026 16:40:47 |INFO| Cart listed! 
+21-05-2026 16:40:47 |INFO| Reviews are listed! 
+21-05-2026 16:40:47 |INFO| Products listed! 
+21-05-2026 16:41:17 |INFO| Category listed! 
+21-05-2026 16:41:17 |INFO| Cart listed! 
+21-05-2026 16:41:17 |INFO| Products listed! 
+21-05-2026 16:41:20 |INFO| Products listed! 
+21-05-2026 16:41:21 |INFO| Products listed! 
+21-05-2026 16:41:22 |INFO| Products listed! 
+21-05-2026 16:41:31 |INFO| Products listed! 
+21-05-2026 16:41:32 |INFO| Products listed! 
+21-05-2026 16:41:33 |INFO| Products listed! 
+21-05-2026 16:41:35 |INFO| Reviews are listed! 
+21-05-2026 16:41:35 |INFO| Products listed! 
+21-05-2026 16:41:51 |INFO| Category listed! 
+21-05-2026 16:41:53 |INFO| Category listed! 
+21-05-2026 16:41:53 |INFO| subCategory listed! 
+21-05-2026 16:41:54 |INFO| Category listed! 
+21-05-2026 16:41:55 |INFO| Category listed! 
+21-05-2026 16:41:55 |INFO| subCategory listed! 
+21-05-2026 16:41:56 |INFO| Category listed! 
+21-05-2026 16:41:57 |INFO| Category listed! 
+21-05-2026 16:41:57 |INFO| subCategory listed! 
+21-05-2026 16:42:01 |INFO| Category listed! 
+21-05-2026 16:42:01 |INFO| Products listed! 
+21-05-2026 16:42:01 |INFO| Products listed! 
+21-05-2026 16:42:01 |INFO| subCategory listed! 
+21-05-2026 16:42:16 |INFO| Product deleted successfully! 
+21-05-2026 16:42:16 |INFO| Products listed! 
+21-05-2026 16:42:16 |INFO| Products listed! 
+21-05-2026 16:42:21 |INFO| Cart listed! 
+21-05-2026 16:42:21 |INFO| Reviews are listed! 
+21-05-2026 16:42:21 |INFO| Products listed! 
+21-05-2026 16:42:30 |INFO| Category listed! 
+21-05-2026 16:42:30 |INFO| Cart listed! 
+21-05-2026 16:42:30 |INFO| Products listed! 
+21-05-2026 16:49:38 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:49:38 |INFO| Cart listed! 
+21-05-2026 16:49:38 |INFO| Category listed! 
+21-05-2026 16:49:38 |INFO| Cart listed! 
+21-05-2026 16:49:38 |INFO| Products listed! 
+21-05-2026 16:50:02 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:50:09 |INFO| Orders is listed! 
+21-05-2026 16:50:10 |INFO| Category listed! 
+21-05-2026 16:50:12 |INFO| Products listed! 
+21-05-2026 16:50:12 |INFO| subCategory listed! 
+21-05-2026 16:50:15 |INFO| subCategory listed! 
+21-05-2026 16:50:15 |INFO| Products listed! 
+21-05-2026 16:50:23 |INFO| Category listed! 
+21-05-2026 16:50:23 |INFO| subCategory listed! 
+21-05-2026 16:50:25 |INFO| Products listed! 
+21-05-2026 16:50:29 |INFO| Orders is listed! 
+21-05-2026 16:50:30 |INFO| Category listed! 
+21-05-2026 16:50:30 |INFO| Products listed! 
+21-05-2026 16:50:30 |INFO| subCategory listed! 
+21-05-2026 16:50:30 |INFO| Products listed! 
+21-05-2026 16:50:41 |INFO| Product deleted successfully! 
+21-05-2026 16:50:41 |INFO| Products listed! 
+21-05-2026 16:50:41 |INFO| Products listed! 
+21-05-2026 16:50:43 |INFO| Product deleted successfully! 
+21-05-2026 16:50:43 |INFO| Products listed! 
+21-05-2026 16:50:43 |INFO| Products listed! 
+21-05-2026 16:50:46 |INFO| Category listed! 
+21-05-2026 16:50:48 |INFO| Products listed! 
+21-05-2026 16:50:48 |INFO| subCategory listed! 
+21-05-2026 16:50:50 |INFO| Category listed! 
+21-05-2026 16:50:50 |INFO| subCategory listed! 
+21-05-2026 16:50:51 |INFO| Products listed! 
+21-05-2026 16:50:52 |INFO| Category listed! 
+21-05-2026 16:50:52 |INFO| subCategory listed! 
+21-05-2026 16:50:54 |INFO| Category listed! 
+21-05-2026 16:50:55 |INFO| subCategory listed! 
+21-05-2026 16:50:55 |INFO| Products listed! 
+21-05-2026 16:50:56 |INFO| Category listed! 
+21-05-2026 16:50:58 |INFO| Category listed! 
+21-05-2026 16:50:58 |INFO| Products listed! 
+21-05-2026 16:50:58 |INFO| subCategory listed! 
+21-05-2026 16:50:58 |INFO| Products listed! 
+21-05-2026 16:51:03 |INFO| Product restored successfully! 
+21-05-2026 16:51:03 |INFO| Products listed! 
+21-05-2026 16:51:03 |INFO| Products listed! 
+21-05-2026 16:51:14 |INFO| Category listed! 
+21-05-2026 16:51:14 |INFO| Products listed! 
+21-05-2026 16:51:14 |INFO| Products listed! 
+21-05-2026 16:51:14 |INFO| subCategory listed! 
+21-05-2026 16:51:23 |INFO| Category listed! 
+21-05-2026 16:51:23 |INFO| Products listed! 
+21-05-2026 16:51:23 |INFO| Products listed! 
+21-05-2026 16:51:23 |INFO| subCategory listed! 
+21-05-2026 16:51:27 |INFO| Orders is listed! 
+21-05-2026 16:51:33 |INFO| Orders is listed! 
+21-05-2026 16:51:40 |INFO| Reviews are listed! 
+21-05-2026 16:51:40 |INFO| Products listed! 
+21-05-2026 16:51:44 |INFO| Category listed! 
+21-05-2026 16:51:44 |INFO| Products listed! 
+21-05-2026 16:51:46 |INFO| Products listed! 
+21-05-2026 16:51:48 |INFO| Cart updated! 
+21-05-2026 16:51:48 |INFO| Cart updated! 
+21-05-2026 16:51:49 |INFO| Cart updated! 
+21-05-2026 16:51:49 |INFO| Cart updated! 
+21-05-2026 16:51:49 |INFO| Cart updated! 
+21-05-2026 16:51:49 |INFO| Cart updated! 
+21-05-2026 16:51:50 |INFO| Cart listed! 
+21-05-2026 16:51:52 |INFO| Cart listed! 
+21-05-2026 16:52:05 |INFO| Order is placed! 
+21-05-2026 16:52:05 |INFO| Cart listed! 
+21-05-2026 16:52:07 |INFO| Orders is listed! 
+21-05-2026 16:52:18 |INFO| Cart listed! 
+21-05-2026 16:52:18 |INFO| Products listed! 
+21-05-2026 16:52:18 |INFO| Reviews are listed! 
+21-05-2026 16:52:25 |INFO| Orders is listed! 
+21-05-2026 16:52:29 |INFO| Order status updated! 
+21-05-2026 16:52:32 |INFO| Order status updated! 
+21-05-2026 16:52:34 |INFO| Order status updated! 
+21-05-2026 16:52:45 |INFO| Cart listed! 
+21-05-2026 16:52:45 |INFO| Reviews are listed! 
+21-05-2026 16:52:45 |INFO| Products listed! 
+21-05-2026 16:52:46 |INFO| Orders is listed! 
+21-05-2026 16:52:52 |INFO| user requested a refund! 
+21-05-2026 16:52:58 |INFO| Cart listed! 
+21-05-2026 16:52:58 |INFO| Reviews are listed! 
+21-05-2026 16:52:58 |INFO| Products listed! 
+21-05-2026 16:53:06 |INFO| Reviews are listed for admin! 
+21-05-2026 16:53:07 |INFO| users listed! 
+21-05-2026 16:53:08 |INFO| Category listed! 
+21-05-2026 16:53:08 |INFO| subCategory listed! 
+21-05-2026 16:53:09 |INFO| Category listed! 
+21-05-2026 16:53:10 |INFO| Orders is listed! 
+21-05-2026 16:53:16 |INFO| Order update request refund status! 
+21-05-2026 16:53:18 |INFO| Category listed! 
+21-05-2026 16:53:18 |INFO| Products listed! 
+21-05-2026 16:53:18 |INFO| subCategory listed! 
+21-05-2026 16:53:18 |INFO| Products listed! 
+21-05-2026 16:53:38 |INFO| Category listed! 
+21-05-2026 16:53:38 |INFO| Products listed! 
+21-05-2026 16:53:38 |INFO| Products listed! 
+21-05-2026 16:53:38 |INFO| subCategory listed! 
+21-05-2026 16:53:45 |INFO| Category listed! 
+21-05-2026 16:53:45 |INFO| Products listed! 
+21-05-2026 16:53:45 |INFO| Products listed! 
+21-05-2026 16:53:45 |INFO| subCategory listed! 
+21-05-2026 16:53:52 |INFO| Category listed! 
+21-05-2026 16:53:52 |INFO| Products listed! 
+21-05-2026 16:53:52 |INFO| Reviews are listed! 
+21-05-2026 16:53:52 |INFO| Products listed! 
+21-05-2026 16:53:53 |INFO| Category listed! 
+21-05-2026 16:53:53 |INFO| Products listed! 
+21-05-2026 16:53:55 |INFO| Products listed! 
+21-05-2026 16:53:55 |INFO| Reviews are listed! 
+21-05-2026 16:54:04 |INFO| Category listed! 
+21-05-2026 16:54:04 |INFO| Products listed! 
+21-05-2026 16:54:07 |INFO| Products listed! 
+21-05-2026 16:54:26 |INFO| Cart merged! 
+21-05-2026 16:54:26 |INFO| Products listed! 
+21-05-2026 16:54:26 |INFO| Cart listed! 
+21-05-2026 16:54:26 |INFO| Reviews are listed! 
+21-05-2026 16:54:29 |INFO| Cart listed! 
+21-05-2026 16:54:31 |INFO| Cart Item is removed! 
+21-05-2026 16:54:33 |INFO| Reviews are listed! 
+21-05-2026 16:54:33 |INFO| Products listed! 
+21-05-2026 16:54:37 |INFO| Category listed! 
+21-05-2026 16:54:37 |INFO| Products listed! 
+21-05-2026 16:54:59 |INFO| Cart merged! 
+21-05-2026 16:54:59 |INFO| Cart listed! 
+21-05-2026 16:54:59 |INFO| Reviews are listed! 
+21-05-2026 16:54:59 |INFO| Products listed! 
+21-05-2026 16:55:01 |INFO| Cart listed! 
+21-05-2026 16:55:02 |INFO| Cart listed! 
+21-05-2026 16:55:02 |INFO| Category listed! 
+21-05-2026 16:55:02 |INFO| Products listed! 
+21-05-2026 16:55:06 |INFO| Cart updated! 
+21-05-2026 16:55:06 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:07 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:08 |INFO| Cart updated! 
+21-05-2026 16:55:08 |INFO| Cart updated! 
+21-05-2026 16:55:09 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:10 |INFO| Cart listed! 
+21-05-2026 16:55:12 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:13 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:14 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:14 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:14 |ERROR| Error | PATCH | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:151:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:55:16 |INFO| Orders is listed! 
+21-05-2026 16:55:19 |INFO| Category listed! 
+21-05-2026 16:55:19 |INFO| Products listed! 
+21-05-2026 16:55:38 |INFO| Cart merged! 
+21-05-2026 16:55:38 |INFO| Reviews are listed! 
+21-05-2026 16:55:38 |INFO| Cart listed! 
+21-05-2026 16:55:38 |INFO| Products listed! 
+21-05-2026 16:55:39 |INFO| Cart listed! 
+21-05-2026 16:55:44 |INFO| Cart Item is removed! 
+21-05-2026 16:55:44 |INFO| Cart Item is removed! 
+21-05-2026 16:55:45 |INFO| Cart Item is removed! 
+21-05-2026 16:55:48 |INFO| Category listed! 
+21-05-2026 16:55:48 |INFO| Products listed! 
+21-05-2026 16:56:01 |INFO| Cart merged! 
+21-05-2026 16:56:01 |INFO| Cart listed! 
+21-05-2026 16:56:01 |INFO| Reviews are listed! 
+21-05-2026 16:56:01 |INFO| Products listed! 
+21-05-2026 16:56:02 |INFO| Cart listed! 
+21-05-2026 16:56:10 |INFO| Category listed! 
+21-05-2026 16:56:10 |INFO| Products listed! 
+21-05-2026 16:56:22 |INFO| Cart merged! 
+21-05-2026 16:56:22 |INFO| Reviews are listed! 
+21-05-2026 16:56:22 |INFO| Products listed! 
+21-05-2026 16:56:22 |INFO| Cart listed! 
+21-05-2026 16:56:24 |INFO| Cart listed! 
+21-05-2026 16:57:35 |INFO| Cart listed! 
+21-05-2026 16:57:35 |INFO| Cart listed! 
+21-05-2026 16:57:35 |INFO| Cart listed! 
+21-05-2026 16:57:35 |INFO| Category listed! 
+21-05-2026 16:57:35 |INFO| Products listed! 
+21-05-2026 16:57:35 |INFO| Cart listed! 
+21-05-2026 16:57:36 |INFO| Cart listed! 
+21-05-2026 16:57:36 |INFO| Category listed! 
+21-05-2026 16:57:36 |INFO| Products listed! 
+21-05-2026 16:57:36 |INFO| Cart listed! 
+21-05-2026 16:57:36 |INFO| Cart listed! 
+21-05-2026 16:57:36 |INFO| Cart listed! 
+21-05-2026 16:57:38 |INFO| Cart listed! 
+21-05-2026 16:57:38 |INFO| Cart listed! 
+21-05-2026 16:57:39 |INFO| Cart Item is removed! 
+21-05-2026 16:57:39 |INFO| Cart Item is removed! 
+21-05-2026 16:57:42 |INFO| Category listed! 
+21-05-2026 16:57:42 |INFO| Products listed! 
+21-05-2026 16:58:00 |INFO| Cart merged! 
+21-05-2026 16:58:00 |INFO| Cart listed! 
+21-05-2026 16:58:00 |INFO| Reviews are listed! 
+21-05-2026 16:58:00 |INFO| Products listed! 
+21-05-2026 16:58:02 |INFO| Cart listed! 
+21-05-2026 16:58:47 |INFO| Cart listed! 
+21-05-2026 16:58:47 |INFO| Cart listed! 
+21-05-2026 16:58:47 |INFO| Cart listed! 
+21-05-2026 16:58:47 |INFO| Category listed! 
+21-05-2026 16:58:47 |INFO| Products listed! 
+21-05-2026 16:58:47 |INFO| Cart listed! 
+21-05-2026 16:58:57 |INFO| Category listed! 
+21-05-2026 16:58:57 |INFO| Cart listed! 
+21-05-2026 16:58:57 |INFO| Products listed! 
+21-05-2026 16:58:59 |INFO| Cart updated! 
+21-05-2026 16:59:00 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:00 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:00 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:00 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:01 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:02 |INFO| Cart updated! 
+21-05-2026 16:59:02 |INFO| Cart updated! 
+21-05-2026 16:59:02 |ERROR| Error | POST | /api/v1/cart : Not enough stock available! 
+Error: Not enough stock available!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\cart.controller.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 16:59:04 |INFO| Cart listed! 
+21-05-2026 16:59:06 |INFO| Cart Item is removed! 
+21-05-2026 16:59:07 |INFO| Cart Item is removed! 
+21-05-2026 16:59:13 |INFO| Category listed! 
+21-05-2026 16:59:13 |INFO| Products listed! 
+21-05-2026 16:59:30 |INFO| Cart merged! 
+21-05-2026 16:59:31 |INFO| Cart listed! 
+21-05-2026 16:59:31 |INFO| Reviews are listed! 
+21-05-2026 16:59:31 |INFO| Products listed! 
+21-05-2026 16:59:32 |INFO| Cart listed! 
+21-05-2026 16:59:34 |INFO| Cart Item is removed! 
+21-05-2026 16:59:35 |INFO| Reviews are listed! 
+21-05-2026 16:59:35 |INFO| Products listed! 
+21-05-2026 16:59:41 |INFO| Category listed! 
+21-05-2026 16:59:41 |INFO| Products listed! 
+21-05-2026 16:59:41 |INFO| Cart listed! 
+21-05-2026 16:59:44 |INFO| Products listed! 
+21-05-2026 16:59:44 |INFO| Reviews are listed! 
+21-05-2026 16:59:48 |INFO| Category listed! 
+21-05-2026 16:59:48 |INFO| Cart listed! 
+21-05-2026 16:59:48 |INFO| Products listed! 
+21-05-2026 16:59:52 |INFO| Reviews are listed! 
+21-05-2026 16:59:52 |INFO| Products listed! 
+21-05-2026 16:59:53 |INFO| Orders is listed! 
+21-05-2026 17:00:02 |INFO| Cart listed! 
+21-05-2026 17:00:02 |INFO| Reviews are listed! 
+21-05-2026 17:00:02 |INFO| Products listed! 
+21-05-2026 17:00:15 |INFO| Category listed! 
+21-05-2026 17:00:15 |INFO| Products listed! 
+21-05-2026 17:00:15 |INFO| Products listed! 
+21-05-2026 17:00:15 |INFO| subCategory listed! 
+21-05-2026 17:00:20 |INFO| Orders is listed! 
+21-05-2026 17:00:21 |INFO| Category listed! 
+21-05-2026 17:00:22 |INFO| Category listed! 
+21-05-2026 17:00:22 |INFO| subCategory listed! 
+21-05-2026 17:00:23 |INFO| users listed! 
+21-05-2026 17:00:24 |INFO| Reviews are listed for admin! 
+21-05-2026 17:00:26 |INFO| Category listed! 
+21-05-2026 17:00:26 |INFO| subCategory listed! 
+21-05-2026 17:00:27 |INFO| users listed! 
+21-05-2026 17:01:06 |INFO| Orders is listed! 
+21-05-2026 17:01:07 |INFO| Category listed! 
+21-05-2026 17:01:07 |INFO| Products listed! 
+21-05-2026 17:01:07 |INFO| Products listed! 
+21-05-2026 17:01:07 |INFO| subCategory listed! 
+21-05-2026 17:01:52 |INFO| Cart listed! 
+21-05-2026 17:01:52 |INFO| Category listed! 
+21-05-2026 17:01:52 |INFO| Products listed! 
+21-05-2026 17:01:52 |INFO| Cart listed! 
+21-05-2026 17:01:54 |INFO| Cart listed! 
+21-05-2026 17:01:54 |INFO| Category listed! 
+21-05-2026 17:01:54 |INFO| Cart listed! 
+21-05-2026 17:01:54 |INFO| Products listed! 
+21-05-2026 17:02:43 |INFO| Orders is listed! 
+21-05-2026 17:02:44 |INFO| Category listed! 
+21-05-2026 17:02:44 |INFO| Products listed! 
+21-05-2026 17:02:44 |INFO| Products listed! 
+21-05-2026 17:02:44 |INFO| subCategory listed! 
+21-05-2026 17:02:59 |INFO| Category listed! 
+21-05-2026 17:03:02 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:04 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:06 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:06 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:07 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:07 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:17 |INFO| Category created! 
+21-05-2026 17:03:17 |INFO| Category listed! 
+21-05-2026 17:03:19 |INFO| subCategory listed! 
+21-05-2026 17:03:19 |INFO| Products listed! 
+21-05-2026 17:03:20 |INFO| Category listed! 
+21-05-2026 17:03:25 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:26 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:26 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:27 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:27 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:03:29 |INFO| Category listed! 
+21-05-2026 17:03:29 |INFO| subCategory listed! 
+21-05-2026 17:03:37 |INFO| Category listed! 
+21-05-2026 17:03:42 |ERROR| Error | PUT | /api/v1/category/69f9d6cbfd951ec68e6959ec : Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" } 
+MongoServerError: Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" }
+    at UpdateOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\update.js:70:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.updateOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:238:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:477:18)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:65:26
+21-05-2026 17:03:43 |ERROR| Error | PUT | /api/v1/category/69f9d6cbfd951ec68e6959ec : Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" } 
+MongoServerError: Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" }
+    at UpdateOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\update.js:70:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.updateOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:238:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:477:18)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:65:26
+21-05-2026 17:03:43 |ERROR| Error | PUT | /api/v1/category/69f9d6cbfd951ec68e6959ec : Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" } 
+MongoServerError: Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" }
+    at UpdateOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\update.js:70:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.updateOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:238:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:477:18)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:65:26
+21-05-2026 17:03:43 |ERROR| Error | PUT | /api/v1/category/69f9d6cbfd951ec68e6959ec : Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" } 
+MongoServerError: Plan executor error during update :: caused by :: E11000 duplicate key error collection: eCommerece.categories index: name_1 dup key: { name: "men shoes" }
+    at UpdateOneOperation.handleOk (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\update.js:70:19)
+    at executeOperationWithRetries (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:194:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async executeOperation (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async Collection.updateOne (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongodb\lib\collection.js:238:16)
+    at async model.$__save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:477:18)
+    at async model.save (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\mongoose\lib\model.js:667:5)
+    at async C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:65:26
+21-05-2026 17:03:46 |INFO| Category listed! 
+21-05-2026 17:04:23 |INFO| Category created! 
+21-05-2026 17:04:23 |INFO| Category listed! 
+21-05-2026 17:04:27 |INFO| Category listed! 
+21-05-2026 17:04:28 |INFO| subCategory listed! 
+21-05-2026 17:05:31 |INFO| Category listed! 
+21-05-2026 17:05:31 |INFO| subCategory listed! 
+21-05-2026 17:05:31 |INFO| Cart listed! 
+21-05-2026 17:05:31 |INFO| Category listed! 
+21-05-2026 17:05:31 |INFO| Products listed! 
+21-05-2026 17:05:31 |INFO| Cart listed! 
+21-05-2026 17:05:48 |INFO| Category listed! 
+21-05-2026 17:05:48 |INFO| subCategory listed! 
+21-05-2026 17:05:48 |INFO| Cart listed! 
+21-05-2026 17:05:48 |INFO| Category listed! 
+21-05-2026 17:05:48 |INFO| Products listed! 
+21-05-2026 17:05:48 |INFO| Cart listed! 
+21-05-2026 17:06:10 |INFO| Category listed! 
+21-05-2026 17:06:10 |INFO| subCategory listed! 
+21-05-2026 17:06:12 |INFO| Category listed! 
+21-05-2026 17:06:13 |INFO| Category listed! 
+21-05-2026 17:06:14 |INFO| Category listed! 
+21-05-2026 17:06:14 |INFO| Category listed! 
+21-05-2026 17:06:14 |INFO| Category listed! 
+21-05-2026 17:06:17 |INFO| subCategory listed! 
+21-05-2026 17:06:17 |INFO| Products listed! 
+21-05-2026 17:06:18 |INFO| Category listed! 
+21-05-2026 17:06:20 |INFO| Category listed! 
+21-05-2026 17:06:20 |INFO| subCategory listed! 
+21-05-2026 17:06:29 |INFO| Category listed! 
+21-05-2026 17:06:29 |INFO| subCategory listed! 
+21-05-2026 17:06:30 |INFO| Category listed! 
+21-05-2026 17:06:30 |INFO| subCategory listed! 
+21-05-2026 17:06:30 |INFO| Category listed! 
+21-05-2026 17:06:30 |INFO| subCategory listed! 
+21-05-2026 17:06:33 |INFO| Orders is listed! 
+21-05-2026 17:06:34 |INFO| Category listed! 
+21-05-2026 17:06:34 |INFO| subCategory listed! 
+21-05-2026 17:06:34 |INFO| Products listed! 
+21-05-2026 17:06:34 |INFO| Products listed! 
+21-05-2026 17:06:41 |ERROR| Error | PATCH | /api/v1/category/6a076ff2f5de2887974c09d8 : can't find /api/v1/category/6a076ff2f5de2887974c09d8 
+Error: can't find /api/v1/category/6a076ff2f5de2887974c09d8
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:06:41 |ERROR| Error | PATCH | /api/v1/subCategory/6a077005f5de2887974c09da : can't find /api/v1/subCategory/6a077005f5de2887974c09da 
+Error: can't find /api/v1/subCategory/6a077005f5de2887974c09da
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:06:42 |INFO| Category listed! 
+21-05-2026 17:06:43 |INFO| Category listed! 
+21-05-2026 17:06:43 |INFO| subCategory listed! 
+21-05-2026 17:06:44 |INFO| Category listed! 
+21-05-2026 17:06:45 |INFO| Orders is listed! 
+21-05-2026 17:06:47 |INFO| Category listed! 
+21-05-2026 17:06:47 |INFO| subCategory listed! 
+21-05-2026 17:06:47 |INFO| Products listed! 
+21-05-2026 17:06:47 |INFO| Products listed! 
+21-05-2026 17:06:48 |INFO| Category listed! 
+21-05-2026 17:06:48 |INFO| Products listed! 
+21-05-2026 17:06:48 |INFO| Products listed! 
+21-05-2026 17:06:48 |INFO| subCategory listed! 
+21-05-2026 17:06:52 |ERROR| Error | PATCH | /api/v1/category/6a076ff2f5de2887974c09d8 : can't find /api/v1/category/6a076ff2f5de2887974c09d8 
+Error: can't find /api/v1/category/6a076ff2f5de2887974c09d8
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:06:52 |ERROR| Error | PATCH | /api/v1/subCategory/6a077005f5de2887974c09da : can't find /api/v1/subCategory/6a077005f5de2887974c09da 
+Error: can't find /api/v1/subCategory/6a077005f5de2887974c09da
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:06:55 |ERROR| Error | PATCH | /api/v1/category/6a076ff2f5de2887974c09d8 : can't find /api/v1/category/6a076ff2f5de2887974c09d8 
+Error: can't find /api/v1/category/6a076ff2f5de2887974c09d8
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:06:55 |ERROR| Error | PATCH | /api/v1/subCategory/6a077005f5de2887974c09da : can't find /api/v1/subCategory/6a077005f5de2887974c09da 
+Error: can't find /api/v1/subCategory/6a077005f5de2887974c09da
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 17:07:56 |INFO| Cart listed! 
+21-05-2026 17:07:56 |INFO| Cart listed! 
+21-05-2026 17:07:56 |INFO| Category listed! 
+21-05-2026 17:07:56 |INFO| Products listed! 
+21-05-2026 17:07:56 |INFO| Products listed! 
+21-05-2026 17:07:56 |INFO| Category listed! 
+21-05-2026 17:07:56 |INFO| Products listed! 
+21-05-2026 17:07:56 |INFO| subCategory listed! 
+21-05-2026 17:08:17 |INFO| Category listed! 
+21-05-2026 17:08:17 |INFO| Products listed! 
+21-05-2026 17:08:17 |INFO| Products listed! 
+21-05-2026 17:08:17 |INFO| subCategory listed! 
+21-05-2026 17:08:17 |INFO| Orders is listed! 
+21-05-2026 17:08:18 |INFO| Category listed! 
+21-05-2026 17:08:20 |INFO| Category listed! 
+21-05-2026 17:08:20 |INFO| subCategory listed! 
+21-05-2026 17:08:21 |INFO| Category listed! 
+21-05-2026 17:08:21 |INFO| Products listed! 
+21-05-2026 17:08:21 |INFO| Products listed! 
+21-05-2026 17:08:21 |INFO| subCategory listed! 
+21-05-2026 17:08:26 |INFO| subCategory updated successfully! 
+21-05-2026 17:08:26 |INFO| Product restored successfully! 
+21-05-2026 17:08:26 |INFO| Products listed! 
+21-05-2026 17:08:26 |INFO| Products listed! 
+21-05-2026 17:08:29 |INFO| Category listed! 
+21-05-2026 17:08:31 |INFO| Category listed! 
+21-05-2026 17:08:31 |INFO| subCategory listed! 
+21-05-2026 17:08:32 |INFO| Category listed! 
+21-05-2026 17:08:32 |INFO| subCategory listed! 
+21-05-2026 17:08:33 |INFO| Category listed! 
+21-05-2026 17:08:33 |INFO| subCategory listed! 
+21-05-2026 17:08:33 |INFO| Category listed! 
+21-05-2026 17:08:34 |INFO| Category listed! 
+21-05-2026 17:08:35 |INFO| Category listed! 
+21-05-2026 17:08:46 |INFO| Orders is listed! 
+21-05-2026 17:08:48 |INFO| Category listed! 
+21-05-2026 17:08:48 |INFO| Products listed! 
+21-05-2026 17:08:48 |INFO| Products listed! 
+21-05-2026 17:08:48 |INFO| subCategory listed! 
+21-05-2026 17:08:52 |INFO| subCategory updated successfully! 
+21-05-2026 17:08:52 |INFO| Product restored successfully! 
+21-05-2026 17:08:52 |INFO| Products listed! 
+21-05-2026 17:08:52 |INFO| Products listed! 
+21-05-2026 17:08:57 |INFO| Orders is listed! 
+21-05-2026 17:08:58 |INFO| Category listed! 
+21-05-2026 17:08:59 |INFO| Category listed! 
+21-05-2026 17:08:59 |INFO| subCategory listed! 
+21-05-2026 17:09:58 |INFO| Category listed! 
+21-05-2026 17:10:09 |ERROR| Error | GET | /api/v1/category/6a076ff2f5de2887974c09d8 : Category is not found! 
+Error: Category is not found!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:44:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:12:43 |INFO| Products listed! 
+21-05-2026 17:13:53 |INFO| Category listed! 
+21-05-2026 17:13:53 |INFO| subCategory listed! 
+21-05-2026 17:13:53 |INFO| Category listed! 
+21-05-2026 17:13:53 |INFO| Cart listed! 
+21-05-2026 17:13:53 |INFO| Cart listed! 
+21-05-2026 17:13:53 |INFO| Category listed! 
+21-05-2026 17:13:53 |INFO| Products listed! 
+21-05-2026 17:15:16 |INFO| Category listed! 
+21-05-2026 17:15:16 |INFO| subCategory listed! 
+21-05-2026 17:15:16 |INFO| Category listed! 
+21-05-2026 17:15:16 |INFO| Cart listed! 
+21-05-2026 17:15:16 |INFO| Category listed! 
+21-05-2026 17:15:16 |INFO| Products listed! 
+21-05-2026 17:15:16 |INFO| Cart listed! 
+21-05-2026 17:15:26 |INFO| Category listed! 
+21-05-2026 17:15:26 |INFO| subCategory listed! 
+21-05-2026 17:15:27 |INFO| Category listed! 
+21-05-2026 17:15:28 |INFO| Orders is listed! 
+21-05-2026 17:15:29 |INFO| Category listed! 
+21-05-2026 17:15:29 |INFO| subCategory listed! 
+21-05-2026 17:15:29 |INFO| Products listed! 
+21-05-2026 17:15:29 |INFO| Products listed! 
+21-05-2026 17:15:33 |INFO| Category listed! 
+21-05-2026 17:15:35 |INFO| Orders is listed! 
+21-05-2026 17:15:36 |INFO| Category listed! 
+21-05-2026 17:15:37 |INFO| Category listed! 
+21-05-2026 17:15:37 |INFO| Products listed! 
+21-05-2026 17:15:37 |INFO| Products listed! 
+21-05-2026 17:15:37 |INFO| subCategory listed! 
+21-05-2026 17:15:41 |INFO| Category listed! 
+21-05-2026 17:15:41 |INFO| Products listed! 
+21-05-2026 17:15:41 |INFO| Products listed! 
+21-05-2026 17:15:41 |INFO| subCategory listed! 
+21-05-2026 17:16:12 |INFO| Products listed! 
+21-05-2026 17:16:12 |INFO| Products listed! 
+21-05-2026 17:16:12 |INFO| Category listed! 
+21-05-2026 17:16:12 |INFO| subCategory listed! 
+21-05-2026 17:16:14 |INFO| Category listed! 
+21-05-2026 17:16:15 |INFO| subCategory listed! 
+21-05-2026 17:16:15 |INFO| Category listed! 
+21-05-2026 17:16:16 |INFO| Category listed! 
+21-05-2026 17:16:21 |INFO| Category created! 
+21-05-2026 17:16:21 |INFO| Category listed! 
+21-05-2026 17:16:27 |INFO| Category created! 
+21-05-2026 17:16:27 |INFO| Category listed! 
+21-05-2026 17:16:31 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:16:33 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:16:34 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:16:35 |INFO| subCategory listed! 
+21-05-2026 17:16:35 |INFO| Category listed! 
+21-05-2026 17:16:48 |INFO| subCategory created! 
+21-05-2026 17:16:48 |INFO| Category listed! 
+21-05-2026 17:16:48 |INFO| subCategory listed! 
+21-05-2026 17:16:56 |INFO| subCategory created! 
+21-05-2026 17:16:56 |INFO| Category listed! 
+21-05-2026 17:16:56 |INFO| subCategory listed! 
+21-05-2026 17:16:58 |INFO| Orders is listed! 
+21-05-2026 17:17:00 |INFO| Category listed! 
+21-05-2026 17:17:00 |INFO| Products listed! 
+21-05-2026 17:17:00 |INFO| Products listed! 
+21-05-2026 17:17:00 |INFO| subCategory listed! 
+21-05-2026 17:17:01 |INFO| Products listed! 
+21-05-2026 17:17:01 |INFO| Products listed! 
+21-05-2026 17:17:01 |INFO| Category listed! 
+21-05-2026 17:17:01 |INFO| subCategory listed! 
+21-05-2026 17:17:19 |INFO| Product created! 
+21-05-2026 17:17:19 |INFO| Products listed! 
+21-05-2026 17:17:39 |INFO| Product created! 
+21-05-2026 17:17:39 |INFO| Products listed! 
+21-05-2026 17:17:41 |INFO| Products listed! 
+21-05-2026 17:17:41 |INFO| Category listed! 
+21-05-2026 17:17:41 |INFO| Products listed! 
+21-05-2026 17:17:41 |INFO| subCategory listed! 
+21-05-2026 17:17:42 |INFO| Category listed! 
+21-05-2026 17:17:42 |INFO| Orders is listed! 
+21-05-2026 17:17:43 |INFO| Products listed! 
+21-05-2026 17:17:43 |INFO| Category listed! 
+21-05-2026 17:17:43 |INFO| Products listed! 
+21-05-2026 17:17:43 |INFO| subCategory listed! 
+21-05-2026 17:17:48 |INFO| Product deleted successfully! 
+21-05-2026 17:17:48 |INFO| Products listed! 
+21-05-2026 17:17:48 |INFO| Products listed! 
+21-05-2026 17:17:55 |INFO| Cart listed! 
+21-05-2026 17:17:55 |INFO| Reviews are listed! 
+21-05-2026 17:17:55 |INFO| Products listed! 
+21-05-2026 17:18:00 |INFO| Cart listed! 
+21-05-2026 17:18:01 |INFO| Products listed! 
+21-05-2026 17:18:01 |INFO| Reviews are listed! 
+21-05-2026 17:18:05 |INFO| Cart updated! 
+21-05-2026 17:18:05 |INFO| Cart updated! 
+21-05-2026 17:18:06 |INFO| Cart updated! 
+21-05-2026 17:18:07 |INFO| Cart listed! 
+21-05-2026 17:18:15 |INFO| Category listed! 
+21-05-2026 17:18:15 |INFO| Products listed! 
+21-05-2026 17:18:15 |INFO| Products listed! 
+21-05-2026 17:18:15 |INFO| subCategory listed! 
+21-05-2026 17:18:16 |INFO| Category listed! 
+21-05-2026 17:18:17 |INFO| Category listed! 
+21-05-2026 17:18:17 |INFO| subCategory listed! 
+21-05-2026 17:18:18 |INFO| Category listed! 
+21-05-2026 17:18:19 |INFO| Category listed! 
+21-05-2026 17:18:19 |INFO| Products listed! 
+21-05-2026 17:18:19 |INFO| Products listed! 
+21-05-2026 17:18:19 |INFO| subCategory listed! 
+21-05-2026 17:18:24 |INFO| subCategory updated successfully! 
+21-05-2026 17:18:24 |INFO| Product restored successfully! 
+21-05-2026 17:18:24 |INFO| Products listed! 
+21-05-2026 17:18:24 |INFO| Products listed! 
+21-05-2026 17:18:25 |INFO| Category listed! 
+21-05-2026 17:18:26 |INFO| Category listed! 
+21-05-2026 17:18:26 |INFO| subCategory listed! 
+21-05-2026 17:18:28 |INFO| Category listed! 
+21-05-2026 17:18:29 |INFO| subCategory listed! 
+21-05-2026 17:18:29 |INFO| Products listed! 
+21-05-2026 17:18:32 |INFO| Category listed! 
+21-05-2026 17:18:32 |INFO| subCategory listed! 
+21-05-2026 17:18:33 |INFO| Products listed! 
+21-05-2026 17:18:37 |INFO| Category listed! 
+21-05-2026 17:18:37 |INFO| Products listed! 
+21-05-2026 17:18:37 |INFO| Products listed! 
+21-05-2026 17:18:37 |INFO| subCategory listed! 
+21-05-2026 17:18:43 |INFO| Product deleted successfully! 
+21-05-2026 17:18:43 |INFO| Products listed! 
+21-05-2026 17:18:43 |INFO| Products listed! 
+21-05-2026 17:18:45 |INFO| Category listed! 
+21-05-2026 17:18:47 |INFO| Products listed! 
+21-05-2026 17:18:47 |INFO| subCategory listed! 
+21-05-2026 17:18:49 |INFO| Category listed! 
+21-05-2026 17:18:49 |INFO| subCategory listed! 
+21-05-2026 17:18:50 |INFO| Products listed! 
+21-05-2026 17:18:51 |INFO| Category listed! 
+21-05-2026 17:18:51 |INFO| subCategory listed! 
+21-05-2026 17:18:52 |INFO| Category listed! 
+21-05-2026 17:18:54 |INFO| subCategory listed! 
+21-05-2026 17:18:54 |INFO| Products listed! 
+21-05-2026 17:18:55 |INFO| Category listed! 
+21-05-2026 17:18:56 |INFO| Category listed! 
+21-05-2026 17:18:56 |INFO| Products listed! 
+21-05-2026 17:18:56 |INFO| Products listed! 
+21-05-2026 17:18:56 |INFO| subCategory listed! 
+21-05-2026 17:19:00 |INFO| subCategory updated successfully! 
+21-05-2026 17:19:00 |INFO| Product restored successfully! 
+21-05-2026 17:19:00 |INFO| Products listed! 
+21-05-2026 17:19:00 |INFO| Products listed! 
+21-05-2026 17:19:01 |INFO| Category listed! 
+21-05-2026 17:19:02 |INFO| Category listed! 
+21-05-2026 17:19:02 |INFO| subCategory listed! 
+21-05-2026 17:19:04 |INFO| Category listed! 
+21-05-2026 17:19:04 |INFO| subCategory listed! 
+21-05-2026 17:19:10 |INFO| Products listed! 
+21-05-2026 17:19:10 |INFO| Category listed! 
+21-05-2026 17:19:10 |INFO| Products listed! 
+21-05-2026 17:19:10 |INFO| subCategory listed! 
+21-05-2026 17:19:13 |INFO| Products listed! 
+21-05-2026 17:19:13 |INFO| Category listed! 
+21-05-2026 17:19:13 |INFO| Products listed! 
+21-05-2026 17:19:13 |INFO| subCategory listed! 
+21-05-2026 17:19:16 |INFO| Product deleted successfully! 
+21-05-2026 17:19:16 |INFO| Products listed! 
+21-05-2026 17:19:16 |INFO| Products listed! 
+21-05-2026 17:19:23 |INFO| Cart listed! 
+21-05-2026 17:19:23 |INFO| Reviews are listed! 
+21-05-2026 17:19:23 |INFO| Products listed! 
+21-05-2026 17:19:25 |INFO| Cart listed! 
+21-05-2026 17:19:35 |INFO| Category listed! 
+21-05-2026 17:19:35 |INFO| Products listed! 
+21-05-2026 17:19:35 |INFO| Products listed! 
+21-05-2026 17:19:35 |INFO| subCategory listed! 
+21-05-2026 17:19:39 |INFO| Product deleted successfully! 
+21-05-2026 17:19:39 |INFO| Products listed! 
+21-05-2026 17:19:39 |INFO| Products listed! 
+21-05-2026 17:19:45 |INFO| Products listed! 
+21-05-2026 17:19:45 |INFO| Reviews are listed! 
+21-05-2026 17:19:45 |INFO| Cart listed! 
+21-05-2026 17:19:46 |INFO| Cart listed! 
+21-05-2026 17:19:48 |INFO| Products listed! 
+21-05-2026 17:19:48 |INFO| Reviews are listed! 
+21-05-2026 17:21:11 |INFO| Cart listed! 
+21-05-2026 17:21:11 |INFO| Reviews are listed! 
+21-05-2026 17:21:11 |INFO| Products listed! 
+21-05-2026 17:21:11 |INFO| Cart listed! 
+21-05-2026 17:21:11 |INFO| Reviews are listed! 
+21-05-2026 17:21:11 |INFO| Products listed! 
+21-05-2026 17:21:11 |INFO| Cart listed! 
+21-05-2026 17:21:11 |INFO| Category listed! 
+21-05-2026 17:21:11 |INFO| Products listed! 
+21-05-2026 17:21:11 |INFO| Cart listed! 
+21-05-2026 17:21:12 |INFO| Cart listed! 
+21-05-2026 17:21:12 |INFO| Category listed! 
+21-05-2026 17:21:12 |INFO| Products listed! 
+21-05-2026 17:21:12 |INFO| Cart listed! 
+21-05-2026 17:21:13 |INFO| Cart listed! 
+21-05-2026 17:21:13 |INFO| Products listed! 
+21-05-2026 17:21:13 |INFO| Reviews are listed! 
+21-05-2026 17:21:13 |INFO| Cart listed! 
+21-05-2026 17:21:13 |INFO| Products listed! 
+21-05-2026 17:21:13 |INFO| Reviews are listed! 
+21-05-2026 17:21:27 |INFO| Cart listed! 
+21-05-2026 17:21:27 |INFO| Products listed! 
+21-05-2026 17:21:27 |INFO| Reviews are listed! 
+21-05-2026 17:21:35 |INFO| Products listed! 
+21-05-2026 17:21:35 |INFO| Category listed! 
+21-05-2026 17:21:35 |INFO| Products listed! 
+21-05-2026 17:21:35 |INFO| subCategory listed! 
+21-05-2026 17:21:37 |INFO| Category listed! 
+21-05-2026 17:21:38 |INFO| Category listed! 
+21-05-2026 17:21:38 |INFO| subCategory listed! 
+21-05-2026 17:21:38 |INFO| Category listed! 
+21-05-2026 17:21:40 |INFO| Products listed! 
+21-05-2026 17:21:40 |INFO| Category listed! 
+21-05-2026 17:21:40 |INFO| Products listed! 
+21-05-2026 17:21:40 |INFO| subCategory listed! 
+21-05-2026 17:21:44 |INFO| subCategory updated successfully! 
+21-05-2026 17:21:44 |INFO| Product restored successfully! 
+21-05-2026 17:21:44 |INFO| Products listed! 
+21-05-2026 17:21:44 |INFO| Products listed! 
+21-05-2026 17:21:45 |INFO| Category listed! 
+21-05-2026 17:21:47 |INFO| Category listed! 
+21-05-2026 17:21:47 |INFO| subCategory listed! 
+21-05-2026 17:21:48 |INFO| Category listed! 
+21-05-2026 17:21:48 |INFO| Category listed! 
+21-05-2026 17:22:06 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:22:06 |INFO| Reviews are listed! 
+21-05-2026 17:22:06 |INFO| Products listed! 
+21-05-2026 17:22:06 |INFO| Cart listed! 
+21-05-2026 17:22:06 |INFO| Category listed! 
+21-05-2026 17:22:06 |INFO| Cart listed! 
+21-05-2026 17:22:06 |INFO| Products listed! 
+21-05-2026 17:22:06 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:22:06 |INFO| Category listed! 
+21-05-2026 17:22:09 |INFO| Category listed! 
+21-05-2026 17:22:17 |INFO| Category listed! 
+21-05-2026 17:22:17 |INFO| subCategory listed! 
+21-05-2026 17:22:18 |INFO| Category listed! 
+21-05-2026 17:22:18 |INFO| subCategory listed! 
+21-05-2026 17:22:20 |INFO| Products listed! 
+21-05-2026 17:22:20 |INFO| Category listed! 
+21-05-2026 17:22:20 |INFO| subCategory listed! 
+21-05-2026 17:22:20 |INFO| Products listed! 
+21-05-2026 17:22:28 |INFO| Product deleted successfully! 
+21-05-2026 17:22:28 |INFO| Products listed! 
+21-05-2026 17:22:28 |INFO| Products listed! 
+21-05-2026 17:22:35 |INFO| subCategory updated successfully! 
+21-05-2026 17:22:35 |INFO| Product restored successfully! 
+21-05-2026 17:22:35 |INFO| Products listed! 
+21-05-2026 17:22:35 |INFO| Products listed! 
+21-05-2026 17:22:51 |INFO| Category listed! 
+21-05-2026 17:22:52 |INFO| Category listed! 
+21-05-2026 17:22:52 |INFO| subCategory listed! 
+21-05-2026 17:23:21 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:23:21 |INFO| Cart listed! 
+21-05-2026 17:23:21 |INFO| Category listed! 
+21-05-2026 17:23:21 |INFO| Products listed! 
+21-05-2026 17:23:21 |INFO| Cart listed! 
+21-05-2026 17:23:21 |INFO| Category listed! 
+21-05-2026 17:23:21 |INFO| subCategory listed! 
+21-05-2026 17:23:34 |INFO| Category listed! 
+21-05-2026 17:23:34 |INFO| subCategory listed! 
+21-05-2026 17:23:36 |INFO| Products listed! 
+21-05-2026 17:23:36 |INFO| Category listed! 
+21-05-2026 17:23:36 |INFO| subCategory listed! 
+21-05-2026 17:23:36 |INFO| Products listed! 
+21-05-2026 17:23:43 |INFO| Product deleted successfully! 
+21-05-2026 17:23:43 |INFO| Products listed! 
+21-05-2026 17:23:43 |INFO| Products listed! 
+21-05-2026 17:23:47 |INFO| subCategory updated successfully! 
+21-05-2026 17:23:47 |INFO| Product restored successfully! 
+21-05-2026 17:23:47 |INFO| Products listed! 
+21-05-2026 17:23:47 |INFO| Products listed! 
+21-05-2026 17:23:48 |INFO| Category listed! 
+21-05-2026 17:23:50 |INFO| Category listed! 
+21-05-2026 17:23:50 |INFO| Products listed! 
+21-05-2026 17:23:50 |INFO| Products listed! 
+21-05-2026 17:23:50 |INFO| subCategory listed! 
+21-05-2026 17:23:54 |INFO| Product deleted successfully! 
+21-05-2026 17:23:54 |INFO| Products listed! 
+21-05-2026 17:23:54 |INFO| Products listed! 
+21-05-2026 17:24:01 |INFO| Category listed! 
+21-05-2026 17:24:02 |INFO| Category listed! 
+21-05-2026 17:24:02 |INFO| subCategory listed! 
+21-05-2026 17:24:03 |INFO| Category listed! 
+21-05-2026 17:24:05 |INFO| Category listed! 
+21-05-2026 17:24:05 |INFO| subCategory listed! 
+21-05-2026 17:24:06 |INFO| Category listed! 
+21-05-2026 17:24:10 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:24:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:24:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:24:12 |ERROR| Error | POST | /api/v1/category/addGategory : Category is exsited! 
+Error: Category is exsited!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\category.controller.js:19:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:25:26 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 17:25:26 |INFO| Category listed! 
+21-05-2026 17:25:26 |INFO| Category listed! 
+21-05-2026 17:25:27 |INFO| Cart listed! 
+21-05-2026 17:25:27 |INFO| Category listed! 
+21-05-2026 17:25:27 |INFO| Cart listed! 
+21-05-2026 17:25:27 |INFO| Products listed! 
+21-05-2026 17:25:29 |INFO| Category listed! 
+21-05-2026 17:25:29 |INFO| Category listed! 
+21-05-2026 17:25:43 |INFO| Category listed! 
+21-05-2026 17:25:43 |INFO| Category listed! 
+21-05-2026 17:27:35 |INFO| Category listed! 
+21-05-2026 17:27:35 |INFO| Category listed! 
+21-05-2026 17:27:37 |INFO| Category listed! 
+21-05-2026 17:27:37 |INFO| subCategory listed! 
+21-05-2026 17:27:38 |INFO| Category listed! 
+21-05-2026 17:27:38 |INFO| Category listed! 
+21-05-2026 17:27:42 |INFO| Category listed! 
+21-05-2026 17:27:42 |INFO| subCategory listed! 
+21-05-2026 17:27:44 |INFO| Category listed! 
+21-05-2026 17:27:44 |INFO| Category listed! 
+21-05-2026 17:27:46 |INFO| Category listed! 
+21-05-2026 17:27:46 |INFO| Category listed! 
+21-05-2026 17:27:47 |INFO| Category listed! 
+21-05-2026 17:27:47 |INFO| Category listed! 
+21-05-2026 17:27:48 |INFO| Category listed! 
+21-05-2026 17:27:48 |INFO| subCategory listed! 
+21-05-2026 17:27:56 |INFO| Category listed! 
+21-05-2026 17:27:56 |INFO| Category listed! 
+21-05-2026 17:27:57 |INFO| Category listed! 
+21-05-2026 17:27:57 |INFO| subCategory listed! 
+21-05-2026 17:55:31 |INFO| Category listed! 
+21-05-2026 17:55:31 |INFO| subCategory listed! 
+21-05-2026 17:55:33 |INFO| Category listed! 
+21-05-2026 17:55:33 |INFO| subCategory listed! 
+21-05-2026 17:55:35 |INFO| Category listed! 
+21-05-2026 17:55:35 |INFO| subCategory listed! 
+21-05-2026 17:55:35 |INFO| Category listed! 
+21-05-2026 17:55:35 |INFO| subCategory listed! 
+21-05-2026 17:55:37 |INFO| Category listed! 
+21-05-2026 17:55:37 |INFO| Category listed! 
+21-05-2026 17:55:38 |INFO| Category listed! 
+21-05-2026 17:55:38 |INFO| Category listed! 
+21-05-2026 17:56:02 |INFO| Products listed! 
+21-05-2026 17:56:02 |INFO| Products listed! 
+21-05-2026 17:56:02 |INFO| Category listed! 
+21-05-2026 17:56:02 |INFO| subCategory listed! 
+21-05-2026 17:56:04 |INFO| Orders is listed! 
+21-05-2026 17:56:04 |INFO| Category listed! 
+21-05-2026 17:56:04 |INFO| Category listed! 
+21-05-2026 17:56:06 |INFO| Category listed! 
+21-05-2026 17:56:06 |INFO| subCategory listed! 
+21-05-2026 17:57:18 |INFO| Category listed! 
+21-05-2026 17:57:18 |INFO| subCategory listed! 
+21-05-2026 17:57:18 |INFO| subCategory listed! 
+21-05-2026 17:57:45 |INFO| Category listed! 
+21-05-2026 17:57:45 |INFO| subCategory listed! 
+21-05-2026 17:57:45 |INFO| subCategory listed! 
+21-05-2026 17:57:53 |INFO| subCategory updated successfully! 
+21-05-2026 17:57:53 |INFO| Category listed! 
+21-05-2026 17:57:53 |INFO| subCategory listed! 
+21-05-2026 17:57:53 |INFO| subCategory listed! 
+21-05-2026 17:57:56 |INFO| subCategory updated successfully! 
+21-05-2026 17:57:56 |INFO| Category listed! 
+21-05-2026 17:57:56 |INFO| subCategory listed! 
+21-05-2026 17:57:56 |INFO| subCategory listed! 
+21-05-2026 17:58:02 |INFO| subCategory updated successfully! 
+21-05-2026 17:58:02 |INFO| Category listed! 
+21-05-2026 17:58:02 |INFO| subCategory listed! 
+21-05-2026 17:58:02 |INFO| subCategory listed! 
+21-05-2026 17:58:03 |INFO| Category listed! 
+21-05-2026 17:58:03 |INFO| subCategory listed! 
+21-05-2026 17:58:03 |INFO| subCategory listed! 
+21-05-2026 17:58:05 |INFO| Category listed! 
+21-05-2026 17:58:05 |INFO| Category listed! 
+21-05-2026 17:58:08 |INFO| Category listed! 
+21-05-2026 17:58:08 |INFO| Category listed! 
+21-05-2026 17:58:10 |INFO| Category listed! 
+21-05-2026 17:58:10 |INFO| subCategory listed! 
+21-05-2026 17:58:10 |INFO| subCategory listed! 
+21-05-2026 17:58:16 |INFO| subCategory updated successfully! 
+21-05-2026 17:58:16 |INFO| Category listed! 
+21-05-2026 17:58:16 |INFO| subCategory listed! 
+21-05-2026 17:58:16 |INFO| subCategory listed! 
+21-05-2026 17:58:19 |INFO| subCategory updated successfully! 
+21-05-2026 17:58:19 |INFO| Category listed! 
+21-05-2026 17:58:19 |INFO| subCategory listed! 
+21-05-2026 17:58:19 |INFO| subCategory listed! 
+21-05-2026 17:59:18 |INFO| Category listed! 
+21-05-2026 17:59:18 |INFO| Category listed! 
+21-05-2026 17:59:19 |INFO| Orders is listed! 
+21-05-2026 17:59:21 |INFO| Products listed! 
+21-05-2026 17:59:21 |INFO| Category listed! 
+21-05-2026 17:59:21 |INFO| subCategory listed! 
+21-05-2026 17:59:21 |INFO| Products listed! 
+21-05-2026 17:59:22 |INFO| Products listed! 
+21-05-2026 17:59:22 |INFO| Category listed! 
+21-05-2026 17:59:22 |INFO| Products listed! 
+21-05-2026 17:59:22 |INFO| subCategory listed! 
+21-05-2026 17:59:26 |INFO| subCategory updated successfully! 
+21-05-2026 17:59:26 |INFO| Product restored successfully! 
+21-05-2026 17:59:26 |INFO| Products listed! 
+21-05-2026 17:59:26 |INFO| Products listed! 
+21-05-2026 17:59:28 |INFO| Category listed! 
+21-05-2026 17:59:28 |INFO| Category listed! 
+21-05-2026 17:59:29 |INFO| Category listed! 
+21-05-2026 17:59:29 |INFO| subCategory listed! 
+21-05-2026 17:59:29 |INFO| subCategory listed! 
+21-05-2026 17:59:31 |INFO| Category listed! 
+21-05-2026 17:59:31 |INFO| Products listed! 
+21-05-2026 17:59:31 |INFO| subCategory listed! 
+21-05-2026 17:59:31 |INFO| Products listed! 
+21-05-2026 18:01:20 |INFO| Category listed! 
+21-05-2026 18:01:20 |INFO| Products listed! 
+21-05-2026 18:01:20 |INFO| Products listed! 
+21-05-2026 18:01:20 |INFO| subCategory listed! 
+21-05-2026 18:01:27 |INFO| Category listed! 
+21-05-2026 18:01:27 |INFO| Category listed! 
+21-05-2026 18:01:28 |INFO| Category listed! 
+21-05-2026 18:01:28 |INFO| subCategory listed! 
+21-05-2026 18:01:28 |INFO| subCategory listed! 
+21-05-2026 18:01:28 |INFO| Category listed! 
+21-05-2026 18:01:28 |INFO| Category listed! 
+21-05-2026 18:01:43 |INFO| Category listed! 
+21-05-2026 18:01:43 |INFO| Category listed! 
+21-05-2026 18:01:44 |INFO| Category listed! 
+21-05-2026 18:01:44 |INFO| Category listed! 
+21-05-2026 18:01:49 |INFO| Category listed! 
+21-05-2026 18:01:49 |INFO| Category listed! 
+21-05-2026 18:02:09 |INFO| Category listed! 
+21-05-2026 18:02:09 |INFO| Category listed! 
+21-05-2026 18:02:12 |INFO| Category listed! 
+21-05-2026 18:02:12 |INFO| Category listed! 
+21-05-2026 18:02:17 |INFO| Category listed! 
+21-05-2026 18:02:17 |INFO| Category listed! 
+21-05-2026 18:02:21 |INFO| Category listed! 
+21-05-2026 18:02:21 |INFO| Category listed! 
+21-05-2026 18:02:25 |INFO| Category listed! 
+21-05-2026 18:02:25 |INFO| Category listed! 
+21-05-2026 18:03:01 |INFO| Category listed! 
+21-05-2026 18:03:01 |INFO| Products listed! 
+21-05-2026 18:03:01 |INFO| Products listed! 
+21-05-2026 18:03:01 |INFO| subCategory listed! 
+21-05-2026 18:03:02 |INFO| Category listed! 
+21-05-2026 18:03:02 |INFO| Category listed! 
+21-05-2026 18:03:03 |INFO| Category listed! 
+21-05-2026 18:03:03 |INFO| subCategory listed! 
+21-05-2026 18:03:03 |INFO| subCategory listed! 
+21-05-2026 18:03:04 |INFO| Category listed! 
+21-05-2026 18:03:04 |INFO| Category listed! 
+21-05-2026 18:03:20 |INFO| Category listed! 
+21-05-2026 18:03:20 |INFO| Category listed! 
+21-05-2026 18:03:26 |INFO| Category listed! 
+21-05-2026 18:03:26 |INFO| Category listed! 
+21-05-2026 18:03:38 |ERROR| Error | PATCH | /api/v1/category/6a0f13b59e4a656d1493feb7 : can't find /api/v1/category/6a0f13b59e4a656d1493feb7 
+Error: can't find /api/v1/category/6a0f13b59e4a656d1493feb7
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 18:03:40 |INFO| Category listed! 
+21-05-2026 18:03:40 |INFO| Category listed! 
+21-05-2026 18:03:44 |ERROR| Error | PATCH | /api/v1/category/6a0f13b59e4a656d1493feb7 : can't find /api/v1/category/6a0f13b59e4a656d1493feb7 
+Error: can't find /api/v1/category/6a0f13b59e4a656d1493feb7
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 18:03:50 |INFO| Category listed! 
+21-05-2026 18:03:50 |INFO| Category listed! 
+21-05-2026 18:03:54 |ERROR| Error | PATCH | /api/v1/category/6a0f13b59e4a656d1493feb7 : can't find /api/v1/category/6a0f13b59e4a656d1493feb7 
+Error: can't find /api/v1/category/6a0f13b59e4a656d1493feb7
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\server.js:29:7
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:342:13)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:297:9
+    at processParams (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:291:5)
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:688:15
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:276:14)
+    at router.handle (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:186:3)
+    at router (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\index.js:60:12)
+21-05-2026 18:15:23 |INFO| subCategory listed! 
+21-05-2026 18:15:23 |INFO| Category listed! 
+21-05-2026 18:15:23 |INFO| subCategory listed! 
+21-05-2026 18:15:27 |INFO| Category restored successfully! 
+21-05-2026 18:15:27 |INFO| subCategory restored successfully! 
+21-05-2026 18:15:27 |INFO| Category listed! 
+21-05-2026 18:15:27 |INFO| subCategory listed! 
+21-05-2026 18:15:27 |INFO| subCategory listed! 
+21-05-2026 18:16:14 |INFO| Category listed! 
+21-05-2026 18:16:14 |INFO| Category listed! 
+21-05-2026 18:16:16 |INFO| Category listed! 
+21-05-2026 18:16:16 |INFO| Category listed! 
+21-05-2026 18:16:18 |INFO| Products listed! 
+21-05-2026 18:16:18 |INFO| subCategory listed! 
+21-05-2026 18:16:20 |INFO| Category listed! 
+21-05-2026 18:16:20 |INFO| subCategory listed! 
+21-05-2026 18:16:20 |INFO| subCategory listed! 
+21-05-2026 18:16:21 |INFO| Products listed! 
+21-05-2026 18:16:22 |INFO| Category listed! 
+21-05-2026 18:16:22 |INFO| subCategory listed! 
+21-05-2026 18:16:22 |INFO| subCategory listed! 
+21-05-2026 18:16:25 |INFO| Category restored successfully! 
+21-05-2026 18:16:25 |INFO| subCategory restored successfully! 
+21-05-2026 18:16:25 |INFO| Category listed! 
+21-05-2026 18:16:25 |INFO| subCategory listed! 
+21-05-2026 18:16:25 |INFO| subCategory listed! 
+21-05-2026 18:16:27 |INFO| Products listed! 
+21-05-2026 18:16:28 |INFO| Category listed! 
+21-05-2026 18:16:28 |INFO| subCategory listed! 
+21-05-2026 18:16:28 |INFO| subCategory listed! 
+21-05-2026 18:16:29 |INFO| Category listed! 
+21-05-2026 18:16:29 |INFO| Category listed! 
+21-05-2026 18:16:30 |INFO| subCategory listed! 
+21-05-2026 18:16:31 |INFO| Products listed! 
+21-05-2026 18:16:32 |INFO| Category listed! 
+21-05-2026 18:16:32 |INFO| Category listed! 
+21-05-2026 18:16:35 |INFO| Category restored successfully! 
+21-05-2026 18:16:35 |INFO| Category listed! 
+21-05-2026 18:16:35 |INFO| Category listed! 
+21-05-2026 18:16:37 |INFO| Category listed! 
+21-05-2026 18:16:37 |INFO| subCategory listed! 
+21-05-2026 18:16:37 |INFO| subCategory listed! 
+21-05-2026 18:16:40 |INFO| Category restored successfully! 
+21-05-2026 18:16:40 |INFO| subCategory restored successfully! 
+21-05-2026 18:16:40 |INFO| Category listed! 
+21-05-2026 18:16:40 |INFO| subCategory listed! 
+21-05-2026 18:16:40 |INFO| subCategory listed! 
+21-05-2026 18:16:41 |INFO| Orders is listed! 
+21-05-2026 18:16:42 |INFO| Category listed! 
+21-05-2026 18:16:42 |INFO| Products listed! 
+21-05-2026 18:16:42 |INFO| Products listed! 
+21-05-2026 18:16:42 |INFO| subCategory listed! 
+21-05-2026 18:16:44 |INFO| Orders is listed! 
+21-05-2026 18:17:10 |INFO| Cart listed! 
+21-05-2026 18:17:10 |INFO| Reviews are listed! 
+21-05-2026 18:17:10 |INFO| Products listed! 
+21-05-2026 18:17:13 |INFO| Cart updated! 
+21-05-2026 18:17:13 |INFO| Cart updated! 
+21-05-2026 18:17:13 |INFO| Cart updated! 
+21-05-2026 18:17:15 |INFO| Cart listed! 
+21-05-2026 18:17:17 |INFO| Cart listed! 
+21-05-2026 18:17:19 |INFO| Cart listed! 
+21-05-2026 18:17:21 |INFO| Cart Item is updated! 
+21-05-2026 18:17:21 |INFO| Cart Item is updated! 
+21-05-2026 18:17:21 |INFO| Cart Item is updated! 
+21-05-2026 18:17:21 |INFO| Cart Item is updated! 
+21-05-2026 18:17:21 |INFO| Cart Item is updated! 
+21-05-2026 18:17:21 |INFO| Cart Item is updated! 
+21-05-2026 18:17:22 |INFO| Cart Item is updated! 
+21-05-2026 18:17:23 |INFO| Cart listed! 
+21-05-2026 18:17:35 |INFO| Order is placed! 
+21-05-2026 18:17:35 |INFO| Cart listed! 
+21-05-2026 18:17:36 |INFO| Orders is listed! 
+21-05-2026 18:17:50 |INFO| Category listed! 
+21-05-2026 18:17:50 |INFO| Products listed! 
+21-05-2026 18:17:50 |INFO| Products listed! 
+21-05-2026 18:17:50 |INFO| subCategory listed! 
+21-05-2026 18:17:51 |INFO| Orders is listed! 
+21-05-2026 18:17:54 |INFO| Order status updated! 
+21-05-2026 18:17:57 |INFO| Order status updated! 
+21-05-2026 18:18:00 |INFO| Orders is listed! 
+21-05-2026 18:18:04 |INFO| Order status updated! 
+21-05-2026 18:18:16 |INFO| Cart listed! 
+21-05-2026 18:18:16 |INFO| Reviews are listed! 
+21-05-2026 18:18:16 |INFO| Products listed! 
+21-05-2026 18:18:18 |INFO| Orders is listed! 
+21-05-2026 18:18:22 |INFO| user requested a refund! 
+21-05-2026 18:18:34 |INFO| Category listed! 
+21-05-2026 18:18:34 |INFO| Category listed! 
+21-05-2026 18:18:35 |INFO| Orders is listed! 
+21-05-2026 18:18:38 |INFO| Order update request refund status! 
+21-05-2026 18:18:42 |INFO| Category listed! 
+21-05-2026 18:18:42 |INFO| Products listed! 
+21-05-2026 18:18:42 |INFO| Products listed! 
+21-05-2026 18:18:42 |INFO| subCategory listed! 
+21-05-2026 18:18:44 |INFO| Category listed! 
+21-05-2026 18:18:44 |INFO| subCategory listed! 
+21-05-2026 18:18:44 |INFO| subCategory listed! 
+21-05-2026 18:18:46 |INFO| Orders is listed! 
+21-05-2026 18:18:48 |INFO| users listed! 
+21-05-2026 18:18:49 |INFO| Category listed! 
+21-05-2026 18:18:49 |INFO| Products listed! 
+21-05-2026 18:18:49 |INFO| Products listed! 
+21-05-2026 18:18:49 |INFO| subCategory listed! 
+21-05-2026 18:44:48 |INFO| Category listed! 
+21-05-2026 18:44:48 |INFO| Products listed! 
+21-05-2026 18:44:48 |INFO| subCategory listed! 
+21-05-2026 18:44:48 |INFO| Products listed! 
+21-05-2026 18:44:49 |INFO| Orders is listed! 
+21-05-2026 18:44:50 |INFO| Category listed! 
+21-05-2026 18:44:50 |INFO| Category listed! 
+21-05-2026 18:44:51 |INFO| Category listed! 
+21-05-2026 18:44:51 |INFO| subCategory listed! 
+21-05-2026 18:44:51 |INFO| subCategory listed! 
+21-05-2026 18:44:52 |INFO| Category listed! 
+21-05-2026 18:44:52 |INFO| Category listed! 
+21-05-2026 18:44:54 |INFO| Products listed! 
+21-05-2026 18:44:54 |INFO| subCategory listed! 
+21-05-2026 18:44:59 |INFO| Products listed! 
+21-05-2026 18:44:59 |INFO| subCategory listed! 
+21-05-2026 18:45:01 |INFO| Category listed! 
+21-05-2026 18:45:01 |INFO| subCategory listed! 
+21-05-2026 18:45:01 |INFO| subCategory listed! 
+21-05-2026 18:45:03 |INFO| Products listed! 
+21-05-2026 18:45:04 |INFO| Category listed! 
+21-05-2026 18:45:04 |INFO| subCategory listed! 
+21-05-2026 18:45:04 |INFO| subCategory listed! 
+21-05-2026 18:45:05 |INFO| Category listed! 
+21-05-2026 18:45:05 |INFO| Category listed! 
+21-05-2026 18:45:06 |INFO| subCategory listed! 
+21-05-2026 18:45:06 |INFO| Products listed! 
+21-05-2026 18:45:07 |INFO| Category listed! 
+21-05-2026 18:45:07 |INFO| Category listed! 
+21-05-2026 18:45:10 |INFO| Category restored successfully! 
+21-05-2026 18:45:10 |INFO| Category listed! 
+21-05-2026 18:45:10 |INFO| Category listed! 
+21-05-2026 18:45:14 |INFO| Category listed! 
+21-05-2026 18:45:14 |INFO| subCategory listed! 
+21-05-2026 18:45:14 |INFO| subCategory listed! 
+21-05-2026 18:45:18 |INFO| Category restored successfully! 
+21-05-2026 18:45:18 |INFO| subCategory restored successfully! 
+21-05-2026 18:45:18 |INFO| Category listed! 
+21-05-2026 18:45:18 |INFO| subCategory listed! 
+21-05-2026 18:45:18 |INFO| subCategory listed! 
+21-05-2026 18:49:09 |INFO| Category listed! 
+21-05-2026 18:49:09 |INFO| Products listed! 
+21-05-2026 18:49:09 |INFO| Products listed! 
+21-05-2026 18:49:09 |INFO| subCategory listed! 
+21-05-2026 18:49:09 |INFO| Orders is listed! 
+21-05-2026 18:49:11 |INFO| Category listed! 
+21-05-2026 18:49:11 |INFO| Category listed! 
+21-05-2026 18:49:12 |INFO| Category listed! 
+21-05-2026 18:49:12 |INFO| subCategory listed! 
+21-05-2026 18:49:12 |INFO| subCategory listed! 
+21-05-2026 18:49:13 |INFO| users listed! 
+21-05-2026 18:49:14 |INFO| Reviews are listed for admin! 
+21-05-2026 18:49:17 |INFO| Reviews are listed for admin! 
+21-05-2026 18:49:18 |INFO| users listed! 
+21-05-2026 18:49:20 |INFO| Category listed! 
+21-05-2026 18:49:20 |INFO| subCategory listed! 
+21-05-2026 18:49:20 |INFO| subCategory listed! 
+21-05-2026 18:49:22 |INFO| Products listed! 
+21-05-2026 18:49:23 |INFO| Category listed! 
+21-05-2026 18:49:23 |INFO| subCategory listed! 
+21-05-2026 18:49:23 |INFO| subCategory listed! 
+21-05-2026 18:49:25 |INFO| Category listed! 
+21-05-2026 18:49:25 |INFO| Category listed! 
+21-05-2026 18:49:26 |INFO| subCategory listed! 
+21-05-2026 18:49:26 |INFO| Products listed! 
+21-05-2026 18:49:27 |INFO| Category listed! 
+21-05-2026 18:49:27 |INFO| Category listed! 
+21-05-2026 18:49:30 |INFO| Category restored successfully! 
+21-05-2026 18:49:30 |INFO| Category listed! 
+21-05-2026 18:49:30 |INFO| Category listed! 
+21-05-2026 18:49:31 |INFO| Category listed! 
+21-05-2026 18:49:31 |INFO| subCategory listed! 
+21-05-2026 18:49:31 |INFO| subCategory listed! 
+21-05-2026 18:49:35 |INFO| Category restored successfully! 
+21-05-2026 18:49:35 |INFO| subCategory restored successfully! 
+21-05-2026 18:49:35 |INFO| subCategory listed! 
+21-05-2026 18:49:35 |INFO| Category listed! 
+21-05-2026 18:49:35 |INFO| subCategory listed! 
+21-05-2026 18:49:37 |INFO| Category listed! 
+21-05-2026 18:49:37 |INFO| Category listed! 
+21-05-2026 18:49:38 |INFO| Orders is listed! 
+21-05-2026 18:49:40 |INFO| Category listed! 
+21-05-2026 18:49:40 |INFO| Products listed! 
+21-05-2026 18:49:40 |INFO| Products listed! 
+21-05-2026 18:49:40 |INFO| subCategory listed! 
+21-05-2026 18:49:43 |INFO| Product deleted successfully! 
+21-05-2026 18:49:43 |INFO| Products listed! 
+21-05-2026 18:49:43 |INFO| Products listed! 
+21-05-2026 18:49:47 |INFO| Category restored successfully! 
+21-05-2026 18:49:47 |INFO| subCategory restored successfully! 
+21-05-2026 18:49:47 |INFO| Product restored successfully! 
+21-05-2026 18:49:47 |INFO| Products listed! 
+21-05-2026 18:49:47 |INFO| Products listed! 
+21-05-2026 18:49:49 |INFO| Category listed! 
+21-05-2026 18:49:49 |INFO| Products listed! 
+21-05-2026 18:49:49 |INFO| Products listed! 
+21-05-2026 18:49:49 |INFO| subCategory listed! 
+21-05-2026 18:50:00 |INFO| Reviews are listed! 
+21-05-2026 18:50:00 |INFO| Cart listed! 
+21-05-2026 18:50:00 |INFO| Products listed! 
+21-05-2026 18:50:10 |INFO| Category listed! 
+21-05-2026 18:50:10 |INFO| Cart listed! 
+21-05-2026 18:50:10 |INFO| Products listed! 
+21-05-2026 18:50:11 |INFO| Cart listed! 
+21-05-2026 18:50:12 |INFO| Orders is listed! 
+21-05-2026 18:50:14 |INFO| Reviews are listed! 
+21-05-2026 18:50:14 |INFO| Products listed! 
+21-05-2026 18:50:18 |INFO| Product listed! 
+21-05-2026 18:50:22 |INFO| Category listed! 
+21-05-2026 18:50:22 |INFO| Cart listed! 
+21-05-2026 18:50:22 |INFO| Products listed! 
+21-05-2026 18:50:25 |INFO| Products listed! 
+21-05-2026 18:50:27 |INFO| Products listed! 
+21-05-2026 18:50:29 |INFO| Products listed! 
+21-05-2026 18:50:31 |INFO| Reviews are listed! 
+21-05-2026 18:50:31 |INFO| Products listed! 
+21-05-2026 18:50:37 |INFO| Category listed! 
+21-05-2026 18:50:37 |INFO| Cart listed! 
+21-05-2026 18:50:37 |INFO| Products listed! 
+21-05-2026 18:50:40 |INFO| Reviews are listed! 
+21-05-2026 18:50:40 |INFO| Products listed! 
+21-05-2026 18:50:43 |INFO| Cart listed! 
+21-05-2026 18:50:56 |INFO| Category listed! 
+21-05-2026 18:50:56 |INFO| Products listed! 
+21-05-2026 18:50:56 |INFO| Products listed! 
+21-05-2026 18:50:56 |INFO| subCategory listed! 
+21-05-2026 18:51:17 |INFO| Product created! 
+21-05-2026 18:51:17 |INFO| Products listed! 
+21-05-2026 18:51:40 |INFO| Product created! 
+21-05-2026 18:51:40 |INFO| Products listed! 
+21-05-2026 18:51:42 |INFO| Category listed! 
+21-05-2026 18:51:42 |INFO| Category listed! 
+21-05-2026 18:51:42 |INFO| Orders is listed! 
+21-05-2026 18:51:53 |INFO| Cart listed! 
+21-05-2026 18:51:53 |INFO| Reviews are listed! 
+21-05-2026 18:51:53 |INFO| Products listed! 
+21-05-2026 18:52:01 |INFO| Category listed! 
+21-05-2026 18:52:01 |INFO| Cart listed! 
+21-05-2026 18:52:01 |INFO| Products listed! 
+21-05-2026 18:52:05 |INFO| Products listed! 
+21-05-2026 18:52:08 |INFO| Products listed! 
+21-05-2026 18:52:11 |INFO| Products listed! 
+21-05-2026 18:52:13 |INFO| Products listed! 
+21-05-2026 18:52:14 |INFO| Products listed! 
+21-05-2026 18:52:16 |INFO| Products listed! 
+21-05-2026 18:52:16 |INFO| Reviews are listed! 
+21-05-2026 18:52:28 |INFO| Category listed! 
+21-05-2026 18:52:28 |INFO| Products listed! 
+21-05-2026 18:52:32 |INFO| Product listed! 
+21-05-2026 18:52:40 |INFO| Cart merged! 
+21-05-2026 18:52:40 |INFO| Reviews are listed! 
+21-05-2026 18:52:40 |INFO| Products listed! 
+21-05-2026 18:52:40 |INFO| Cart listed! 
+21-05-2026 18:52:41 |INFO| Cart listed! 
+21-05-2026 18:52:44 |INFO| Cart Item is updated! 
+21-05-2026 18:52:44 |INFO| Cart Item is updated! 
+21-05-2026 18:52:44 |INFO| Cart Item is updated! 
+21-05-2026 18:52:45 |INFO| Cart listed! 
+21-05-2026 18:52:52 |INFO| Order is placed! 
+21-05-2026 18:52:52 |INFO| Cart listed! 
+21-05-2026 18:52:53 |INFO| Orders is listed! 
+21-05-2026 18:53:03 |INFO| Orders is listed! 
+21-05-2026 18:53:07 |ERROR| Error | PATCH | /api/v1/order/updateStatus/6a0f2a542575dd590ba1f447 : Cannot move order from pending to shipped 
+Error: Cannot move order from pending to shipped
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 18:53:10 |INFO| Order status updated! 
+21-05-2026 18:53:13 |INFO| Order status updated! 
+21-05-2026 18:53:23 |INFO| Cart listed! 
+21-05-2026 18:53:23 |INFO| Reviews are listed! 
+21-05-2026 18:53:23 |INFO| Products listed! 
+21-05-2026 18:53:24 |INFO| Orders is listed! 
+21-05-2026 18:53:37 |INFO| Orders is listed! 
+21-05-2026 18:53:43 |ERROR| Error | PATCH | /api/v1/order/updateStatus/6a0f2a542575dd590ba1f447 : Cannot move order from shipped to cancelledByAdmin 
+Error: Cannot move order from shipped to cancelledByAdmin
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 18:53:51 |ERROR| Error | PATCH | /api/v1/order/updateStatus/6a0f2a542575dd590ba1f447 : Cannot move order from shipped to refused 
+Error: Cannot move order from shipped to refused
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 18:53:55 |INFO| Order status updated! 
+21-05-2026 18:54:07 |INFO| Cart listed! 
+21-05-2026 18:54:07 |INFO| Reviews are listed! 
+21-05-2026 18:54:07 |INFO| Products listed! 
+21-05-2026 18:54:08 |INFO| Orders is listed! 
+21-05-2026 18:54:13 |INFO| user requested a refund! 
+21-05-2026 18:54:22 |INFO| Orders is listed! 
+21-05-2026 18:54:24 |INFO| Order update request refund status! 
+21-05-2026 18:54:28 |ERROR| Error | PATCH | /api/v1/order/updateStatus/6a0f2a542575dd590ba1f447 : Cannot move order from received to shipped 
+Error: Cannot move order from received to shipped
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 18:54:33 |INFO| Category listed! 
+21-05-2026 18:54:33 |INFO| Products listed! 
+21-05-2026 18:54:33 |INFO| Products listed! 
+21-05-2026 18:54:33 |INFO| subCategory listed! 
+21-05-2026 18:54:37 |INFO| Category listed! 
+21-05-2026 18:54:37 |INFO| Category listed! 
+21-05-2026 18:54:41 |INFO| Cart listed! 
+21-05-2026 18:54:41 |INFO| Reviews are listed! 
+21-05-2026 18:54:41 |INFO| Products listed! 
+21-05-2026 18:54:42 |INFO| Orders is listed! 
+21-05-2026 18:55:01 |INFO| Category listed! 
+21-05-2026 18:55:01 |INFO| Products listed! 
+21-05-2026 18:55:13 |INFO| Cart merged! 
+21-05-2026 18:55:13 |INFO| Reviews are listed! 
+21-05-2026 18:55:13 |INFO| Products listed! 
+21-05-2026 18:55:13 |INFO| Cart listed! 
+21-05-2026 18:55:15 |INFO| Cart listed! 
+21-05-2026 18:55:16 |INFO| Cart listed! 
+21-05-2026 18:55:23 |INFO| Order is placed! 
+21-05-2026 18:55:23 |INFO| Cart listed! 
+21-05-2026 18:55:25 |INFO| Orders is listed! 
+21-05-2026 18:55:33 |INFO| order is cancelled by user! 
+21-05-2026 18:55:35 |INFO| Cart listed! 
+21-05-2026 18:55:35 |INFO| Orders is listed! 
+21-05-2026 18:55:43 |INFO| Category listed! 
+21-05-2026 18:55:43 |INFO| Products listed! 
+21-05-2026 18:55:43 |INFO| Products listed! 
+21-05-2026 18:55:43 |INFO| subCategory listed! 
+21-05-2026 18:55:46 |INFO| Orders is listed! 
+21-05-2026 18:55:53 |INFO| Orders is listed! 
+21-05-2026 18:55:54 |INFO| Category listed! 
+21-05-2026 18:55:54 |INFO| Category listed! 
+21-05-2026 18:55:56 |INFO| Category listed! 
+21-05-2026 18:55:56 |INFO| Products listed! 
+21-05-2026 18:55:56 |INFO| Products listed! 
+21-05-2026 18:55:56 |INFO| subCategory listed! 
+21-05-2026 18:55:58 |INFO| Orders is listed! 
+21-05-2026 18:55:59 |INFO| Category listed! 
+21-05-2026 18:55:59 |INFO| Products listed! 
+21-05-2026 18:55:59 |INFO| Products listed! 
+21-05-2026 18:55:59 |INFO| subCategory listed! 
+21-05-2026 18:56:10 |INFO| Cart listed! 
+21-05-2026 18:56:10 |INFO| Products listed! 
+21-05-2026 18:56:10 |INFO| Reviews are listed! 
+21-05-2026 18:56:15 |INFO| Category listed! 
+21-05-2026 18:56:15 |INFO| Cart listed! 
+21-05-2026 18:56:15 |INFO| Products listed! 
+21-05-2026 18:56:18 |INFO| Cart updated! 
+21-05-2026 18:56:18 |INFO| Cart updated! 
+21-05-2026 18:56:18 |INFO| Cart updated! 
+21-05-2026 18:56:19 |INFO| Cart updated! 
+21-05-2026 18:56:19 |INFO| Cart updated! 
+21-05-2026 18:56:20 |INFO| Cart listed! 
+21-05-2026 18:56:22 |INFO| Cart listed! 
+21-05-2026 18:56:32 |INFO| Order is placed! 
+21-05-2026 18:56:32 |INFO| Cart listed! 
+21-05-2026 18:56:33 |INFO| Orders is listed! 
+21-05-2026 18:56:35 |INFO| Category listed! 
+21-05-2026 18:56:35 |INFO| Cart listed! 
+21-05-2026 18:56:35 |INFO| Products listed! 
+21-05-2026 18:56:35 |INFO| Orders is listed! 
+21-05-2026 18:56:37 |INFO| Reviews are listed! 
+21-05-2026 18:56:37 |INFO| Products listed! 
+21-05-2026 18:56:40 |INFO| Category listed! 
+21-05-2026 18:56:40 |INFO| Cart listed! 
+21-05-2026 18:56:40 |INFO| Products listed! 
+21-05-2026 18:56:43 |INFO| Orders is listed! 
+21-05-2026 18:56:56 |INFO| Category listed! 
+21-05-2026 18:56:56 |INFO| Products listed! 
+21-05-2026 18:56:56 |INFO| Products listed! 
+21-05-2026 18:56:56 |INFO| subCategory listed! 
+21-05-2026 18:56:58 |INFO| Orders is listed! 
+21-05-2026 18:57:02 |INFO| Order status updated! 
+21-05-2026 18:57:03 |INFO| Category listed! 
+21-05-2026 18:57:03 |INFO| Products listed! 
+21-05-2026 18:57:03 |INFO| Products listed! 
+21-05-2026 18:57:03 |INFO| subCategory listed! 
+21-05-2026 18:57:10 |INFO| Cart listed! 
+21-05-2026 18:57:10 |INFO| Reviews are listed! 
+21-05-2026 18:57:10 |INFO| Products listed! 
+21-05-2026 18:57:13 |INFO| Orders is listed! 
+21-05-2026 18:57:18 |INFO| order is cancelled by user! 
+21-05-2026 18:57:19 |INFO| Category listed! 
+21-05-2026 18:57:19 |INFO| Cart listed! 
+21-05-2026 18:57:19 |INFO| Products listed! 
+21-05-2026 18:57:28 |INFO| Orders is listed! 
+21-05-2026 18:57:31 |INFO| Category listed! 
+21-05-2026 18:57:31 |INFO| Products listed! 
+21-05-2026 18:57:31 |INFO| Products listed! 
+21-05-2026 18:57:31 |INFO| subCategory listed! 
+21-05-2026 18:57:35 |INFO| Category listed! 
+21-05-2026 18:57:35 |INFO| Products listed! 
+21-05-2026 18:57:35 |INFO| Products listed! 
+21-05-2026 18:57:35 |INFO| subCategory listed! 
+21-05-2026 18:57:37 |INFO| Orders is listed! 
+21-05-2026 18:57:39 |INFO| Orders is listed! 

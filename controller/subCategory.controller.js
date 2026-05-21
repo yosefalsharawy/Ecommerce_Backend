@@ -88,6 +88,37 @@ exports.updateSubCategory = catchAsync(async (req, res, next) => {
 	});
 });
 
+exports.restoreSubCategory = catchAsync(async (req, res, next) => {
+	const { id } = req.params;
+	const { name, category } = req.body;
+	const subCategory = await SubCategory.findById(id);
+	if (!subCategory) {
+		return next(new APPError('SubCategory not found', 404));
+	}
+	if (category) {
+		const categoryExists = await Category.findById(category);
+		if (!categoryExists) {
+			return next(new APPError('Category not found', 404));
+		}
+		subCategory.category = category;
+	}
+	if (name) {
+		subCategory.name = name;
+		subCategory.slug = slugify(name, {
+			lower: true,
+			strict: true,
+		});
+	}
+	subCategory.isDeleted = false;
+	subCategory.isActive = true;
+	const restoredSubCategory = await subCategory.save();
+	logger.info('subCategory restored successfully!');
+	res.status(200).json({
+		message: 'subCategory restored successfully',
+		data: restoredSubCategory,
+	});
+});
+
 exports.deleteSubCategory = catchAsync(async (req, res, next) => {
 	const { id } = req.params;
 	const subCategory = await SubCategory.findByIdAndUpdate(

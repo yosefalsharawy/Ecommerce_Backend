@@ -6,6 +6,7 @@ const {
 	getCategoryByslug,
 	deleteCategory,
 	updateGategory,
+	restoreCategory,
 } = require('../controller/category.controller');
 const { authanticate } = require('../middlewares/auth.middleware');
 const { authorized } = require('../middlewares/role.middleware');
@@ -17,5 +18,6 @@ router.get('/', paginate(Category), getAllCategories);
 router.get('/:slug', getCategoryByslug);
 router.delete('/:id', authanticate, authorized('admin'), deleteCategory);
 router.put('/:id', authanticate, authorized('admin'), updateGategory);
+router.patch('/:id', authanticate, authorized('admin'), restoreCategory);
 
 module.exports = router;
