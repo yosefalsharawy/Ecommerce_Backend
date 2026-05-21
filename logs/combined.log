@@ -11401,3 +11401,47 @@ Error: Cannot move order from received to shipped
 21-05-2026 18:57:35 |INFO| subCategory listed! 
 21-05-2026 18:57:37 |INFO| Orders is listed! 
 21-05-2026 18:57:39 |INFO| Orders is listed! 
+21-05-2026 19:11:09 |INFO| Reviews are listed! 
+21-05-2026 19:11:09 |INFO| Products listed! 
+21-05-2026 19:11:09 |INFO| Reviews are listed! 
+21-05-2026 19:11:09 |INFO| Products listed! 
+21-05-2026 19:11:26 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 19:11:26 |INFO| Reviews are listed! 
+21-05-2026 19:11:26 |INFO| Products listed! 
+21-05-2026 19:11:26 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 19:11:34 |INFO| Category listed! 
+21-05-2026 19:11:34 |INFO| subCategory listed! 
+21-05-2026 19:11:34 |INFO| Products listed! 
+21-05-2026 19:11:34 |INFO| Products listed! 
+21-05-2026 19:11:35 |INFO| Orders is listed! 
+21-05-2026 19:11:36 |INFO| Category listed! 
+21-05-2026 19:11:36 |INFO| Category listed! 
+21-05-2026 19:11:37 |INFO| Category listed! 
+21-05-2026 19:11:37 |INFO| Products listed! 
+21-05-2026 19:11:37 |INFO| Products listed! 
+21-05-2026 19:11:37 |INFO| subCategory listed! 
+21-05-2026 19:11:39 |INFO| Category listed! 
+21-05-2026 19:11:39 |INFO| subCategory listed! 
+21-05-2026 19:11:39 |INFO| subCategory listed! 
+21-05-2026 19:11:40 |INFO| users listed! 
+21-05-2026 19:11:41 |INFO| Reviews are listed for admin! 
+21-05-2026 19:11:47 |INFO| Cart listed! 
+21-05-2026 19:11:47 |INFO| Reviews are listed! 
+21-05-2026 19:11:47 |INFO| Products listed! 
+21-05-2026 19:11:52 |INFO| Cart listed! 
+21-05-2026 19:11:52 |INFO| Category listed! 
+21-05-2026 19:11:52 |INFO| Products listed! 
+21-05-2026 19:11:57 |INFO| Products listed! 
+21-05-2026 19:12:00 |INFO| Products listed! 

@@ -7352,3 +7352,17 @@ Error: Cannot move order from shipped to refused
 Error: Cannot move order from received to shipped
     at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\controller\order.controller.js:210:4
     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 19:11:26 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+21-05-2026 19:11:26 |ERROR| Error | GET | /api/v1/cart : Access denied! 
+Error: Access denied!
+    at C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\role.middleware.js:6:16
+    at Layer.handleRequest (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\node_modules\router\lib\route.js:157:13)
+    at exports.authanticate (C:\Users\yosef\OneDrive\Desktop\NTI\Ecommerce Backend\middlewares\auth.middleware.js:17:2)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
